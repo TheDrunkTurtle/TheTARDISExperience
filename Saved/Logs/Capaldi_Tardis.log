@@ -157,4 +157,1238 @@
 [2015.10.28-16.52.24:405][608]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000075486EF600
 [2015.10.28-16.52.24:465][608]LogAIModule: Creating AISystem for world Untitled_1
 [2015.10.28-16.52.24:507][608]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.10.28-16.52.24:534][608]Cmd: MAP CHECKDEP N
+[2015.10.28-16.52.24:534][608]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.28-16.52.25:051][608]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 515.936ms to complete.
+[2015.10.28-16.52.25:051][608]LogFileHelpers: Loading map 'Template_Default' took 0.801
+[2015.10.28-16.52.38:925][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.28-17.26.07:093][980]SourceControl:Error: Error Operation 'Sync' not supported by source control provider 'Git'
+[2015.10.28-17.27.04:586][300]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Corey\Documents\Unreal Projects\TheTARDISExperience\Assets\Corey\Models\Road.fbx)
+[2015.10.28-17.27.04:624][300]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.28-17.27.04:624][300]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.10.28-17.27.04:624][300]LogFbx: ItemName: Model, ItemCount : 1
+[2015.10.28-17.27.04:624][300]LogFbx: ItemName: Material, ItemCount : 2
+[2015.10.28-17.27.04:639][300]LogFbx: Loading FBX Scene from C:\Users\Corey\Documents\Unreal Projects\TheTARDISExperience\Assets\Corey\Models\Road.fbx
+[2015.10.28-17.27.04:656][300]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.28-17.27.19:419][300]LogFbx: Loading FBX Scene from C:\Users\Corey\Documents\Unreal Projects\TheTARDISExperience\Assets\Corey\Models\Road.fbx
+[2015.10.28-17.27.19:430][300]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.28-17.27.19:436][300]LogLinker:Warning: Can't find file '/Game/Assets/Road'
+[2015.10.28-17.27.19:452][300]LogMaterial: Missing cached shader map for material Road2, compiling. 
+[2015.10.28-17.27.19:524][300]LogLinker:Warning: Can't find file '/Game/Assets/Concrete'
+[2015.10.28-17.27.19:524][300]LogLinker:Warning: Can't find file '/Game/Assets/Concrete'
+[2015.10.28-17.27.19:532][300]LogMaterial: Missing cached shader map for material Concrete, compiling. 
+[2015.10.28-17.27.19:550][300]LogFbx:Warning: Triangulating static mesh Plane
+[2015.10.28-17.27.19:585][300]LogStaticMesh: Building static mesh Road...
+[2015.10.28-17.27.19:604][300]LogStaticMesh: Built static mesh [0.021215.2s] /Game/Assets/Road.Road
+[2015.10.28-17.27.19:616][300]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.10.28-17.27.42:342][172]SourceControl: Info On branch master
+[2015.10.28-17.27.42:342][172]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2015.10.28-17.27.42:342][172]SourceControl: Info Changes not staged for commit:
+[2015.10.28-17.27.42:342][172]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2015.10.28-17.27.42:342][172]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.10.28-17.27.42:342][172]SourceControl: Info 	modified:   Assets/Corey/Imgs/Terrain-Road.jpg
+[2015.10.28-17.27.42:342][172]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.10.28-17.27.42:342][172]SourceControl: Info Untracked files:
+[2015.10.28-17.27.42:342][172]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2015.10.28-17.27.42:342][172]SourceControl: Info 	Assets/Corey/Imgs/Smoothed_Concrete_Grey_Holed_Plaster_UV_CM_1.jpg
+[2015.10.28-17.27.42:342][172]SourceControl: Info 	Assets/Corey/Models/
+[2015.10.28-17.27.42:342][172]SourceControl: Info 	Assets/Corey/UV/
+[2015.10.28-17.27.42:342][172]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2015.10.28-17.27.42:899][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Road" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road.uasset" SILENT=true
+[2015.10.28-17.27.42:926][172]LogSavePackage: Save=22.352108ms
+[2015.10.28-17.27.42:926][172]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Road6439425C491BC67D0E41D68E70D7EB47.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road.uasset'
+[2015.10.28-17.27.42:932][172]LogSavePackage: Total save time: 30.438818ms
+[2015.10.28-17.27.42:932][172]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road.uasset
+[2015.10.28-17.27.55:696][842]SourceControl: Info On branch master
+[2015.10.28-17.27.55:696][842]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2015.10.28-17.27.55:696][842]SourceControl: Info Changes to be committed:
+[2015.10.28-17.27.55:696][842]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2015.10.28-17.27.55:696][842]SourceControl: Info 	new file:   Content/Assets/Models/Road.uasset
+[2015.10.28-17.27.55:696][842]SourceControl: Info Changes not staged for commit:
+[2015.10.28-17.27.55:696][842]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2015.10.28-17.27.55:696][842]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.10.28-17.27.55:696][842]SourceControl: Info 	modified:   Assets/Corey/Imgs/Terrain-Road.jpg
+[2015.10.28-17.27.55:696][842]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2015.10.28-17.27.55:696][842]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2015.10.28-17.27.55:696][842]SourceControl: Info Untracked files:
+[2015.10.28-17.27.55:696][842]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2015.10.28-17.27.55:696][842]SourceControl: Info 	Assets/Corey/Imgs/Smoothed_Concrete_Grey_Holed_Plaster_UV_CM_1.jpg
+[2015.10.28-17.27.55:696][842]SourceControl: Info 	Assets/Corey/Models/
+[2015.10.28-17.27.55:696][842]SourceControl: Info 	Assets/Corey/UV/
+[2015.10.28-17.27.56:402][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Concrete" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Materials/Concrete.uasset" SILENT=true
+[2015.10.28-17.27.56:422][842]LogSavePackage: Save=17.379025ms
+[2015.10.28-17.27.56:422][842]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/ConcreteB0CBC1F745BDF91AB72122A325F7B8DB.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Materials/Concrete.uasset'
+[2015.10.28-17.27.56:425][842]LogSavePackage: Total save time: 20.998474ms
+[2015.10.28-17.27.56:425][842]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Materials/Concrete.uasset
+[2015.10.28-17.27.56:610][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Road2" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Materials/Road2.uasset" SILENT=true
+[2015.10.28-17.27.56:632][842]LogSavePackage: Save=18.585215ms
+[2015.10.28-17.27.56:632][842]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Road28E8228A8425A074E3A2029A2962214D9.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Materials/Road2.uasset'
+[2015.10.28-17.27.56:635][842]LogSavePackage: Total save time: 22.723939ms
+[2015.10.28-17.27.56:635][842]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Materials/Road2.uasset
+[2015.10.28-17.27.57:294][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Road" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road.uasset" SILENT=true
+[2015.10.28-17.27.57:322][842]LogSavePackage: Save=8.065646ms
+[2015.10.28-17.27.57:322][842]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Road3408D7B7432EC33CE0FC2EADA40DE4FE.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road.uasset'
+[2015.10.28-17.27.57:324][842]LogSavePackage: Total save time: 26.109058ms
+[2015.10.28-17.27.57:324][842]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road.uasset
+[2015.10.28-17.27.57:353][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Road" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road.uasset" SILENT=true
+[2015.10.28-17.27.57:382][842]LogSavePackage: Save=10.006725ms
+[2015.10.28-17.27.57:382][842]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/RoadD6891F79430664420C7FACB7D2CA4432.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road.uasset'
+[2015.10.28-17.27.57:383][842]LogSavePackage: Total save time: 27.027957ms
+[2015.10.28-17.27.57:383][842]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road.uasset
+[2015.10.28-17.28.20:004][161]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Corey\Documents\Unreal Projects\TheTARDISExperience\Assets\Corey\Imgs\Terrain-Road.jpg)
+[2015.10.28-17.28.20:592][161]LogTexture:Display: Building textures: Terrain-Road (AutoDXT)
+[2015.10.28-17.28.54:967][294]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.55:006][295]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:034][296]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:088][297]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:116][298]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:149][299]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:188][300]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:225][301]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:257][302]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:291][303]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:317][304]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:340][305]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:387][306]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:414][307]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:447][308]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:482][309]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:507][310]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:531][311]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:581][312]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:605][313]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:630][314]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:689][315]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:720][316]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:742][317]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:788][318]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:814][319]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:837][320]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:878][321]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:901][322]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:925][323]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:958][324]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.55:990][325]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:017][326]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:040][327]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:086][328]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:112][329]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:135][330]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:183][331]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:214][332]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:242][333]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:284][334]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:310][335]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:334][336]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:382][337]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:407][338]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:435][339]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:487][340]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:517][341]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:542][342]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:593][343]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:620][344]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:646][345]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:693][346]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:722][347]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:751][348]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] invalid
+[2015.10.28-17.28.56:792][349]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:819][350]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:845][351]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:891][352]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:916][353]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:946][354]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.56:991][355]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.57:018][356]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.57:045][357]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.57:090][358]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.57:115][359]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.57:139][360]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.57:182][361]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.57:215][362]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.57:240][363]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.57:287][364]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.57:311][365]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:373][456]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:410][457]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:440][458]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:487][459]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:514][460]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:541][461]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:595][462]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:622][463]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:647][464]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:697][465]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:726][466]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:753][467]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:793][468]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:819][469]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.28.59:990][477]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.00:020][478]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.02:022][563]Cmd: MODE GRID=0
+[2015.10.28-17.29.04:696][673]Cmd: MODE GRID=1
+[2015.10.28-17.29.05:749][716]Cmd: MODE SCALEGRID=0
+[2015.10.28-17.29.09:358][855]Cmd: MODE SCALEGRID=1
+[2015.10.28-17.29.13:589][ 43]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.13:618][ 44]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.13:644][ 45]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.13:689][ 46]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.13:719][ 47]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.13:746][ 48]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.13:799][ 49]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.13:823][ 50]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.13:856][ 51]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.13:896][ 52]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.13:924][ 53]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.13:959][ 54]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:001][ 55]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:029][ 56]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:056][ 57]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:096][ 58]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:121][ 59]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:146][ 60]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:190][ 61]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:223][ 62]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:254][ 63]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:292][ 64]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:319][ 65]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:344][ 66]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:392][ 67]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:423][ 68]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:456][ 69]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:506][ 70]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:534][ 71]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:589][ 72]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:617][ 73]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:642][ 74]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:689][ 75]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:721][ 76]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:747][ 77]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:790][ 78]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:817][ 79]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:843][ 80]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:891][ 81]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:919][ 82]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:945][ 83]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.14:994][ 84]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:020][ 85]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:044][ 86]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:090][ 87]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:117][ 88]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:141][ 89]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:189][ 90]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:220][ 91]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:249][ 92]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:289][ 93]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:316][ 94]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:338][ 95]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:387][ 96]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:411][ 97]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:434][ 98]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:487][ 99]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:515][100]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:538][101]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:580][102]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:604][103]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:628][104]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:655][105]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:689][106]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:718][107]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:742][108]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:788][109]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:814][110]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:839][111]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:883][112]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:910][113]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:937][114]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.15:989][115]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.16:019][116]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.16:042][117]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.16:089][118]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.16:117][119]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.17:509][176]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.17:541][177]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.17:607][179]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.17:633][180]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.17:679][181]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.17:731][183]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.17:786][184]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.17:827][186]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.17:855][187]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.17:891][188]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.20:691][314]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.20:691][314]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.20:827][320]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.20:827][320]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.20:861][321]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.20:861][321]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.20:906][322]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.20:906][322]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.20:934][323]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.20:934][323]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.20:997][324]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.20:997][324]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:028][325]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:028][325]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:063][326]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:063][326]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:102][327]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:102][327]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:133][328]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:133][328]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:191][329]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:191][329]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:228][330]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:228][330]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:260][331]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:260][331]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:298][332]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:298][332]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:330][333]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:330][333]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:373][334]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:373][334]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:412][335]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:412][335]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:449][336]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:449][336]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:500][337]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:500][337]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:527][338]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:527][338]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:556][339]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:556][339]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:595][340]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:595][340]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:621][341]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:621][341]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:672][343]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:672][343]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:707][344]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:707][344]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:741][345]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:741][345]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:783][346]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:784][346]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:892][351]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:892][351]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:919][352]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:919][352]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.21:946][353]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.21:946][353]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.23:380][416]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.23:380][416]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.23:421][418]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.23:421][418]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.23:446][419]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.23:446][419]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.23:820][435]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.23:821][435]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.23:878][437]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.23:879][437]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.29:981][695]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.29:981][695]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.31:395][757]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.31:395][757]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.31:465][760]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.31:465][760]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.31:506][761]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.31:507][761]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.31:534][762]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.31:534][762]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.31:582][763]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.31:582][763]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.31:889][778]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.31:889][778]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.31:918][779]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.31:918][779]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.31:943][780]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.31:943][780]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.31:995][781]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.31:995][781]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.32:042][783]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.32:042][783]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.32:087][784]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.32:087][784]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.32:115][785]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.32:115][785]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.33:069][828]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.33:069][828]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.33:103][829]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.33:103][829]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.33:372][841]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.33:372][841]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.34:021][871]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.34:021][871]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.34:134][876]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.34:134][876]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.34:367][886]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.34:367][886]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.34:403][887]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.34:404][887]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.34:430][888]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.34:430][888]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.34:721][900]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.34:721][900]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.34:756][901]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.34:756][901]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.34:792][902]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.34:792][902]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.34:819][903]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.34:819][903]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.35:091][916]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.35:091][916]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:063][ 91]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:064][ 91]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:104][ 92]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:104][ 92]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:132][ 93]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:132][ 93]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:180][ 94]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:180][ 94]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:206][ 95]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:206][ 95]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:237][ 96]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:237][ 96]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:290][ 97]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:290][ 97]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:319][ 98]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:319][ 98]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:345][ 99]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:345][ 99]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:393][100]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:393][100]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:420][101]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:420][101]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:446][102]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:446][102]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:500][103]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:500][103]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:528][104]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:528][104]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:556][105]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:556][105]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:596][106]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:596][106]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:623][107]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:623][107]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:648][108]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:648][108]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:688][109]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:688][109]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:713][110]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:713][110]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:741][111]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:741][111]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:786][112]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:786][112]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:813][113]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:813][113]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:837][114]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:837][114]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:881][115]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:881][115]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:907][116]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:907][116]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:932][117]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:932][117]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.39:976][118]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.39:976][118]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:007][119]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:007][119]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:032][120]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:032][120]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:079][121]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:079][121]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:104][122]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:104][122]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:129][123]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:129][123]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:157][124]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:157][124]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:193][125]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:193][125]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:220][126]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:220][126]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:254][127]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:254][127]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:290][128]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:290][128]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:317][129]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:317][129]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:343][130]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:343][130]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:388][131]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:388][131]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:413][132]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:413][132]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:436][133]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:436][133]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:482][134]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:482][134]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:513][135]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:513][135]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:539][136]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:539][136]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:582][137]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:582][137]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:607][138]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:607][138]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:633][139]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:634][139]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:685][140]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:685][140]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:711][141]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:711][141]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:736][142]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:736][142]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:790][143]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:790][143]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:817][144]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:817][144]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:841][145]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:841][145]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:892][146]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:892][146]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:918][147]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:918][147]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:944][148]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:944][148]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.40:990][149]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.40:990][149]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:023][150]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:023][150]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:051][151]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:051][151]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:090][152]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:090][152]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:118][153]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:118][153]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:143][154]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:143][154]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:190][155]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:190][155]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:218][156]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:218][156]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:249][157]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:249][157]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:296][158]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:296][158]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:321][159]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:321][159]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:348][160]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:348][160]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:389][161]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:389][161]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:413][162]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:413][162]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:437][163]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:438][163]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:480][164]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:480][164]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:511][165]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:511][165]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:535][166]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:535][166]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:579][167]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:579][167]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:604][168]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:604][168]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:629][169]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:629][169]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:656][170]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:656][170]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:691][171]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:691][171]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:717][172]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:717][172]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.41:742][173]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.41:742][173]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.43:969][272]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.43:969][272]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.44:013][273]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.44:013][273]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.44:047][274]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.44:047][274]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.51:804][570]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.51:804][570]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.51:834][571]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.51:834][571]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.51:880][572]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.51:880][572]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.51:906][573]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.51:906][573]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.51:930][574]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.51:930][574]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.51:957][575]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.51:957][575]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.51:992][576]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.51:992][576]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:022][577]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:022][577]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:050][578]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:050][578]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:088][579]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:088][579]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:114][580]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:114][580]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:137][581]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:137][581]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:182][582]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:182][582]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:209][583]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:209][583]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:234][584]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:234][584]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:292][585]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:292][585]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:317][586]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:317][586]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:339][587]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:339][587]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:392][588]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:392][588]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:423][589]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:423][589]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:454][590]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:454][590]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:496][591]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:496][591]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:534][592]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:534][592]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:566][593]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:566][593]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:603][594]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:603][594]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:627][595]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:627][595]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:652][596]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:652][596]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:691][597]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:691][597]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:717][598]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:717][598]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:739][599]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:739][599]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:793][600]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:793][600]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:818][601]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:818][601]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:843][602]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:843][602]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:889][603]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:889][603]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:916][604]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:916][604]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:943][605]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:943][605]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.52:995][606]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.52:995][606]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:029][607]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:029][607]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:063][608]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:063][608]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:099][609]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:099][609]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:125][610]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:126][610]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:153][611]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:153][611]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:192][612]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:192][612]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:219][613]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:219][613]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:243][614]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:243][614]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:300][615]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:300][615]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:326][616]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:326][616]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:355][617]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:355][617]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:394][618]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:394][618]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:419][619]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:419][619]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:443][620]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:443][620]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:489][621]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:489][621]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:519][622]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:519][622]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:545][623]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:545][623]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:588][624]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:588][624]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:615][625]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:615][625]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:639][626]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:639][626]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:678][627]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:678][627]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:704][628]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:704][628]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:728][629]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:728][629]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:763][630]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:763][630]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:808][631]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:808][631]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:837][632]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:837][632]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:887][633]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:888][633]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:923][634]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:923][634]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:955][635]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:955][635]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.53:994][636]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.53:994][636]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:026][637]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:026][637]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:059][638]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:059][638]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:098][639]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:098][639]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:123][640]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:123][640]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:148][641]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:148][641]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:189][642]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:189][642]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:215][643]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:215][643]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:242][644]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:242][644]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:293][645]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:293][645]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:319][646]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:319][646]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:345][647]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:345][647]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:391][648]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:391][648]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:418][649]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:418][649]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:441][650]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:441][650]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:488][651]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:488][651]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:519][652]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:519][652]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:554][653]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:554][653]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:598][654]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:598][654]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:627][655]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:627][655]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:656][656]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:656][656]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:691][657]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:691][657]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:716][658]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:716][658]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:742][659]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:743][659]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:795][660]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:795][660]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:821][661]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:821][661]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:847][662]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:847][662]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:887][663]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:887][663]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:912][664]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:912][664]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:935][665]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:935][665]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.54:989][666]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.54:989][666]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.55:021][667]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.55:021][667]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.55:055][668]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.55:055][668]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.56:619][727]Cmd: MODE SCALEGRID=0
+[2015.10.28-17.29.57:466][760]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:466][760]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:508][761]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:509][761]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:547][762]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:547][762]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:597][763]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:597][763]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:628][764]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:628][764]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:654][765]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:654][765]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:692][766]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:692][766]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:720][767]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:720][767]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:745][768]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:745][768]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:798][769]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:798][769]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:823][770]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:823][770]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:849][771]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:849][771]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:895][772]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:895][772]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:922][773]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:922][773]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:949][774]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:950][774]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.57:991][775]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.57:991][775]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.58:023][776]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.58:023][776]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.58:051][777]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.58:051][777]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.58:091][778]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.58:091][778]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.58:118][779]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.58:118][779]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.58:144][780]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.58:144][780]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.58:191][781]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.58:191][781]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.58:218][782]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.58:218][782]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.58:242][783]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.29.58:242][783]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.29.59:657][839]Cmd: MODE GRID=0
+[2015.10.28-17.30.00:566][876]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:566][876]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:600][877]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:600][877]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:624][878]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:624][878]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:651][879]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:651][879]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:691][880]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:691][880]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:718][881]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:718][881]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:743][882]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:743][882]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:793][883]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:793][883]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:819][884]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:819][884]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:843][885]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:843][885]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:887][886]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:887][886]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:913][887]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:913][887]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:936][888]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:936][888]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.00:991][889]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.00:991][889]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:021][890]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:021][890]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:049][891]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:049][891]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:089][892]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:089][892]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:119][893]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:119][893]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:145][894]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:145][894]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:188][895]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:188][895]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:218][896]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:218][896]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:242][897]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:242][897]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:293][898]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:293][898]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:317][899]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:317][899]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:341][900]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:341][900]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:387][901]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:387][901]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:411][902]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:411][902]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:436][903]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:436][903]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:479][904]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:479][904]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:502][905]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:502][905]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:531][906]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:531][906]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:587][907]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:587][907]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:612][908]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:612][908]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:635][909]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:635][909]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:681][910]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:681][910]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:705][911]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:705][911]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:729][912]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:729][912]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:760][913]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:760][913]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:798][914]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:798][914]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:825][915]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:825][915]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:849][916]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:850][916]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:887][917]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:887][917]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:913][918]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:914][918]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:937][919]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:937][919]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.01:980][920]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.01:980][920]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:005][921]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:005][921]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:035][922]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:035][922]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:080][923]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:080][923]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:106][924]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:106][924]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:133][925]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:133][925]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:176][926]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:176][926]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:201][927]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:201][927]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:227][928]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:227][928]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:253][929]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:253][929]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:295][930]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:295][930]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:319][931]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:319][931]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:343][932]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:343][932]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.02:388][933]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.30.02:388][933]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.30.03:816][991]Cmd: MODE GRID=1
+[2015.10.28-17.30.04:490][ 15]Cmd: MODE SCALEGRID=1
+[2015.10.28-17.30.06:072][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Road" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road.uasset" SILENT=true
+[2015.10.28-17.30.06:096][ 70]LogSavePackage: Save=7.834530ms
+[2015.10.28-17.30.06:096][ 70]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Road34F093AF4CD542C801F043BDD1D74A9C.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road.uasset'
+[2015.10.28-17.30.06:100][ 70]LogSavePackage: Total save time: 20.755947ms
+[2015.10.28-17.30.06:100][ 70]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road.uasset
+[2015.10.28-17.30.09:266][190]LogMaterial: Missing cached shader map for material Road2, compiling. 
+[2015.10.28-17.30.09:457][190]LogMaterial: Missing cached shader map for material Road2, compiling. 
+[2015.10.28-17.30.09:468][190]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.30.09:497][190]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.10.28-17.30.12:214][263]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.28-17.30.12:214][263]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.28-17.30.12:214][263]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.28-17.30.14:989][365]LogMaterial: Missing cached shader map for material Road2, compiling. 
+[2015.10.28-17.30.14:997][365]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.30.16:783][419]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.28-17.30.16:783][419]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.28-17.30.16:783][419]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.28-17.30.18:996][495]LogMaterial: Missing cached shader map for material Road2, compiling. 
+[2015.10.28-17.30.19:008][495]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.30.19:010][495]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-17.30.19:048][495]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-17.30.20:870][542]LogMaterial: Missing cached shader map for material Road2, compiling. 
+[2015.10.28-17.30.20:883][542]LogMaterial: 0.000306 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.30.20:915][542]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-17.30.20:993][543]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.28-17.30.20:993][543]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.28-17.30.20:993][543]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.28-17.30.23:973][618]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.28-17.30.23:973][618]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-17.30.23:973][618]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.28-17.30.27:162][730]LogMaterial: Missing cached shader map for material Road2, compiling. 
+[2015.10.28-17.30.27:173][730]LogMaterial: 0.000184 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.30.27:201][730]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.28-17.30.30:128][824]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.28-17.30.30:128][824]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-17.30.30:128][824]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.28-17.30.39:090][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/Terrain-Road" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Textures/Terrain-Road.uasset" SILENT=true
+[2015.10.28-17.30.40:010][127]LogSavePackage: Save=915.601501ms
+[2015.10.28-17.30.40:011][127]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Terrain-Road0A0A9799418979BA79BF49BF40280046.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Textures/Terrain-Road.uasset'
+[2015.10.28-17.30.40:015][127]LogSavePackage: Total save time: 920.529835ms
+[2015.10.28-17.30.40:015][127]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Textures/Terrain-Road.uasset
+[2015.10.28-17.30.40:822][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Concrete" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Concrete.uasset" SILENT=true
+[2015.10.28-17.30.40:829][127]LogSavePackage: Save=5.002632ms
+[2015.10.28-17.30.40:829][127]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Concrete8AE124C74B3805F48B5AD9ABE43148FE.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Concrete.uasset'
+[2015.10.28-17.30.40:833][127]LogSavePackage: Total save time: 8.949444ms
+[2015.10.28-17.30.40:833][127]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Concrete.uasset
+[2015.10.28-17.30.41:163][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Road2" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Road2.uasset" SILENT=true
+[2015.10.28-17.30.41:172][127]LogSavePackage: Save=4.576384ms
+[2015.10.28-17.30.41:172][127]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Road2877F0BC54A4780ED6BB60AA0A1B7143D.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Road2.uasset'
+[2015.10.28-17.30.41:178][127]LogSavePackage: Total save time: 11.179272ms
+[2015.10.28-17.30.41:178][127]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Road2.uasset
+[2015.10.28-17.30.41:323][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Road" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Road.uasset" SILENT=true
+[2015.10.28-17.30.41:330][127]LogSavePackage: Save=4.735240ms
+[2015.10.28-17.30.41:330][127]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/RoadB46D398B4846A33E195A5EA662391D46.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Road.uasset'
+[2015.10.28-17.30.41:334][127]LogSavePackage: Total save time: 8.658357ms
+[2015.10.28-17.30.41:334][127]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Road.uasset
+[2015.10.28-17.30.45:658][279]LogMaterial: Missing cached shader map for material Concrete, compiling. 
+[2015.10.28-17.30.45:783][279]LogMaterial: Missing cached shader map for material Concrete, compiling. 
+[2015.10.28-17.30.45:790][279]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.30.45:815][279]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2015.10.28-17.30.47:497][321]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.28-17.30.47:497][321]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.28-17.30.47:497][321]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.28-17.30.50:732][423]LogMaterial: Missing cached shader map for material Concrete, compiling. 
+[2015.10.28-17.30.50:739][423]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.30.52:189][461]LogMaterial: Missing cached shader map for material Concrete, compiling. 
+[2015.10.28-17.30.52:200][461]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.30.52:203][461]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.28-17.30.52:235][461]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.28-17.30.52:393][464]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.28-17.30.52:393][464]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.28-17.30.52:393][464]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.28-17.30.54:470][520]LogMaterial: Missing cached shader map for material Concrete, compiling. 
+[2015.10.28-17.30.54:478][520]LogMaterial: 0.000191 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.30.54:510][520]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.28-17.30.56:126][563]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.28-17.30.56:126][563]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-17.30.56:126][563]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.28-17.30.56:460][574]LogMaterial: Missing cached shader map for material Concrete, compiling. 
+[2015.10.28-17.30.56:469][574]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.30.56:500][574]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.28-17.30.58:426][623]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.28-17.30.58:426][623]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-17.30.58:426][623]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.28-17.30.58:618][629]LogMaterialEditor: Saving and Compiling material Concrete
+[2015.10.28-17.30.59:616][629]LogMaterial: Missing cached shader map for material Concrete, compiling. 
+[2015.10.28-17.30.59:648][629]LogMaterial: 0.000158 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.30.59:711][629]LogMaterial: Missing cached shader map for material Concrete, compiling. 
+[2015.10.28-17.30.59:748][629]LogMaterial: Missing cached shader map for material Concrete, compiling. 
+[2015.10.28-17.30.59:764][629]LogMaterial: 0.001002 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.31.03:059][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Concrete" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Materials/Concrete.uasset" SILENT=true
+[2015.10.28-17.31.03:104][629]LogSavePackage: Save=22.918196ms
+[2015.10.28-17.31.03:104][629]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Concrete8A3708ED43C88F8CDE69BA95B37062A1.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Materials/Concrete.uasset'
+[2015.10.28-17.31.03:109][629]LogSavePackage: Total save time: 46.226948ms
+[2015.10.28-17.31.03:109][629]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Materials/Concrete.uasset
+[2015.10.28-17.31.03:127][629]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.10.28-17.31.03:127][629]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-17.31.03:127][629]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.28-17.31.04:625][679]LogMaterialEditor: Saving and Compiling material Road2
+[2015.10.28-17.31.05:544][679]LogMaterial: Missing cached shader map for material Road2, compiling. 
+[2015.10.28-17.31.05:581][679]LogMaterial: 0.000264 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.31.05:677][679]LogMaterial: Missing cached shader map for material Road2, compiling. 
+[2015.10.28-17.31.05:716][679]LogMaterial: Missing cached shader map for material Road2, compiling. 
+[2015.10.28-17.31.05:732][679]LogMaterial: 0.001004 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.28-17.31.09:095][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Road2" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Materials/Road2.uasset" SILENT=true
+[2015.10.28-17.31.09:136][679]LogSavePackage: Save=24.777653ms
+[2015.10.28-17.31.09:136][679]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Road2332E56D44AD70CDAB5B938BEE43C00B4.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Materials/Road2.uasset'
+[2015.10.28-17.31.09:141][679]LogSavePackage: Total save time: 43.635234ms
+[2015.10.28-17.31.09:141][679]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Materials/Road2.uasset
+[2015.10.28-17.31.09:161][679]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.10.28-17.31.09:161][679]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.28-17.31.09:161][679]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.28-17.31.25:915][317]LogActorFactory: Actor Factory created Road
+[2015.10.28-17.31.25:916][317]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.31.25:916][317]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.31.25:916][317]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.31.25:916][317]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.31.29:538][492]LogActorFactory: Actor Factory created Road
+[2015.10.28-17.31.29:539][492]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.31.29:539][492]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.31.29:587][492]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.31.29:587][492]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.31.29:597][492]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2015.10.28-17.32.56:551][398]LogEditorFactories: Performing atomic reimport of [C:/Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Assets/Corey/Models/Road.fbx]
+[2015.10.28-17.32.56:652][398]LogFbx: Loading FBX Scene from C:/Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Assets/Corey/Models/Road.fbx
+[2015.10.28-17.32.56:665][398]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.28-17.32.56:672][398]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2015.10.28-17.32.56:674][398]LogFbx:Warning: Triangulating static mesh Plane
+[2015.10.28-17.32.56:769][398]LogStaticMesh: Building static mesh Road...
+[2015.10.28-17.32.56:772][398]LogStaticMesh: Built static mesh [0.004525.2s] /Game/Assets/Models/Road.Road
+[2015.10.28-17.32.56:800][398]LogEditorFactories: -- imported successfully
+[2015.10.28-17.33.15:727][432]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.15:727][432]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.15:729][432]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.15:729][432]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.15:730][432]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.15:730][432]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.18:479][569]Cmd: TRANSACTION UNDO
+[2015.10.28-17.33.18:480][569]LogEditorTransaction: Undo Move Actors
+[2015.10.28-17.33.18:486][569]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.18:486][569]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.18:486][569]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.18:486][569]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.45:749][  3]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.45:749][  3]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.45:750][  3]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.45:750][  3]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.45:751][  3]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.45:751][  3]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.48:595][149]Cmd: TRANSACTION UNDO
+[2015.10.28-17.33.48:595][149]LogEditorTransaction: Undo Move Actors
+[2015.10.28-17.33.48:598][149]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.48:598][149]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.48:598][149]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.48:598][149]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.51:793][306]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.51:793][306]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.51:795][306]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.51:795][306]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.51:796][306]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.33.51:796][306]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.33.55:473][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.28-17.36.08:592][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007548B92C00
+[2015.10.28-17.36.08:593][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007548A92160
+[2015.10.28-17.36.08:603][707]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000757FACCAE0
+[2015.10.28-17.36.08:659][707]LogSavePackage: Save=55.762959ms
+[2015.10.28-17.36.08:659][707]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Untitled_1_Auto1B3AE274D476B103913277BAE82FCB545.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2015.10.28-17.36.08:663][707]LogSavePackage: Total save time: 60.417164ms
+[2015.10.28-17.36.08:663][707]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2015.10.28-17.36.08:672][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.107
+[2015.10.28-17.36.08:672][707]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.107
+[2015.10.28-17.42.35:086][959]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Corey\Documents\Unreal Projects\TheTARDISExperience\Assets\Corey\Models\Road_L.fbx)
+[2015.10.28-17.42.35:094][959]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.28-17.42.35:094][959]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.10.28-17.42.35:094][959]LogFbx: ItemName: Model, ItemCount : 1
+[2015.10.28-17.42.35:094][959]LogFbx: ItemName: Material, ItemCount : 2
+[2015.10.28-17.42.35:102][959]LogFbx: Loading FBX Scene from C:\Users\Corey\Documents\Unreal Projects\TheTARDISExperience\Assets\Corey\Models\Road_L.fbx
+[2015.10.28-17.42.35:112][959]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.28-17.42.40:071][959]LogFbx: Loading FBX Scene from C:\Users\Corey\Documents\Unreal Projects\TheTARDISExperience\Assets\Corey\Models\Road_L.fbx
+[2015.10.28-17.42.40:082][959]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.28-17.42.40:099][959]LogMaterial: Missing cached shader map for material Road2, compiling. 
+[2015.10.28-17.42.40:112][959]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.42.40:112][959]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.42.40:112][959]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.42.40:112][959]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.42.40:113][959]LogLinker:Warning: Can't find file '/Game/Assets/Models/Concrete'
+[2015.10.28-17.42.40:113][959]LogLinker:Warning: Can't find file '/Game/Assets/Models/Concrete'
+[2015.10.28-17.42.40:122][959]LogMaterial: Missing cached shader map for material Concrete, compiling. 
+[2015.10.28-17.42.40:136][959]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.42.40:136][959]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.42.40:137][959]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.42.40:137][959]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.42.40:137][959]LogFbx:Warning: Triangulating static mesh Plane.001
+[2015.10.28-17.42.40:283][959]LogStaticMesh: Building static mesh Road_L...
+[2015.10.28-17.42.40:298][959]LogStaticMesh: Built static mesh [0.016051.2s] /Game/Assets/Models/Road_L.Road_L
+[2015.10.28-17.42.40:304][959]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.10.28-17.42.51:161][366]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.42.51:161][366]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.42.51:162][366]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.42.51:162][366]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.43.36:796][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Road_L" FILE="../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road_L.uasset" SILENT=true
+[2015.10.28-17.43.36:817][531]LogSavePackage: Save=17.606337ms
+[2015.10.28-17.43.36:817][531]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Road_L03B6905148CE71073EFE34A245DF8E46.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road_L.uasset'
+[2015.10.28-17.43.36:820][531]LogSavePackage: Total save time: 21.200333ms
+[2015.10.28-17.43.36:820][531]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/Assets/Models/Road_L.uasset
+[2015.10.28-17.43.41:087][710]LogActorFactory: Actor Factory created Road_L
+[2015.10.28-17.43.43:031][781]LogActorFactory: Actor Factory created Road_L
+[2015.10.28-17.43.43:506][800]Cmd: TRANSACTION UNDO
+[2015.10.28-17.43.43:506][800]LogEditorTransaction: Undo Create Actors
+[2015.10.28-17.43.45:583][878]LogActorFactory: Actor Factory created Road_L
+[2015.10.28-17.43.47:326][947]LogActorFactory: Actor Factory created Road_L
+[2015.10.28-17.44.05:396][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road2)
+[2015.10.28-17.44.06:657][892]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_L)
+[2015.10.28-17.44.11:957][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.28-17.44.14:805][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_L)
+[2015.10.28-17.44.21:557][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road)
+[2015.10.28-17.44.22:798][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_L)
+[2015.10.28-17.44.24:512][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road)
+[2015.10.28-17.44.29:526][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_L)
+[2015.10.28-17.46.09:621][699]LogSavePackage: Save=58.890041ms
+[2015.10.28-17.46.09:621][699]LogSavePackage: Moving '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Untitled_1_Auto21E4E9A614CFA0F967D817F9C357A8EFF.tmp' to '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2015.10.28-17.46.09:623][699]LogSavePackage: Total save time: 61.098807ms
+[2015.10.28-17.46.09:623][699]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2015.10.28-17.46.09:626][699]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.103
+[2015.10.28-17.46.09:626][699]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.103
+[2015.10.28-17.47.45:583][ 29]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Road_L)
+[2015.10.28-17.47.48:999][165]LogEditorFactories: Performing atomic reimport of [C:/Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Assets/Corey/Models/Road.fbx]
+[2015.10.28-17.47.49:094][165]LogFbx: Loading FBX Scene from C:/Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Assets/Corey/Models/Road.fbx
+[2015.10.28-17.47.49:105][165]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.28-17.47.49:109][165]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2015.10.28-17.47.49:110][165]LogFbx:Warning: Triangulating static mesh Plane
+[2015.10.28-17.47.49:166][165]LogStaticMesh: Building static mesh Road...
+[2015.10.28-17.47.49:170][165]LogStaticMesh: Built static mesh [0.004383.2s] /Game/Assets/Models/Road.Road
+[2015.10.28-17.47.49:193][165]LogEditorFactories: -- imported successfully
+[2015.10.28-17.47.55:503][412]LogEditorFactories: Performing atomic reimport of [C:/Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Assets/Corey/Models/Road_L.fbx]
+[2015.10.28-17.47.55:596][412]LogFbx: Loading FBX Scene from C:/Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Assets/Corey/Models/Road_L.fbx
+[2015.10.28-17.47.55:606][412]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.28-17.47.55:610][412]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2015.10.28-17.47.55:611][412]LogFbx:Warning: Triangulating static mesh Plane.001
+[2015.10.28-17.47.55:769][412]LogStaticMesh: Building static mesh Road_L...
+[2015.10.28-17.47.55:782][412]LogStaticMesh: Built static mesh [0.015276.2s] /Game/Assets/Models/Road_L.Road_L
+[2015.10.28-17.47.55:793][412]LogEditorFactories: -- imported successfully
+[2015.10.28-17.47.59:376][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road2)
+[2015.10.28-17.48.06:889][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_L)
+[2015.10.28-17.48.08:802][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road2)
+[2015.10.28-17.48.15:030][251]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.48.15:030][251]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.48.17:714][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road)
+[2015.10.28-17.48.21:905][558]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.48.21:905][558]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.48.32:902][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.28-17.48.32:906][ 72]PIE: New page: PIE session: Untitled_1 (Oct 28, 2015, 3:48:32 AM)
+[2015.10.28-17.48.32:907][ 72]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.10.28-17.48.32:911][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003972s)
+[2015.10.28-17.48.32:912][ 72]LogAIModule: Creating AISystem for world Untitled_1
+[2015.10.28-17.48.32:912][ 72]LogPlayLevel: PIE: World Init took: (0.001878s)
+[2015.10.28-17.48.32:913][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006202s)
+[2015.10.28-17.48.32:963][ 72]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.28-17.48.32:981][ 72]LogInit: FAudioDevice initialized.
+[2015.10.28-17.48.33:328][ 72]LogLinker:Warning: Asset '../../../../../../Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.28-17.48.33:634][ 72]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.28-17.48.33:650][ 72]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.48.33:650][ 72]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.48.33:650][ 72]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.48.33:650][ 72]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.48.33:651][ 72]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2015.10.28-10.48.33
+[2015.10.28-17.48.33:651][ 72]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.28-17.48.33:652][ 72]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.28-17.48.33:652][ 72]LogWorld: Bringing up level for play took: 0.004631
+[2015.10.28-17.48.33:687][ 72]LogMaterial:Warning: Material /Game/Sonic/Textures/11th_Doctors_Sonic_Screwdriver_Metal_BaseColor_Mat.11th_Doctors_Sonic_Screwdriver_Metal_BaseColor_Mat missing bUsedWithSkeletalMesh=True! Default Material will be used in game.
+[2015.10.28-17.48.33:687][ 72]LogMaterial:Warning:      The material will recompile every editor launch until resaved.
+[2015.10.28-17.48.33:687][ 72]LogMaterial:Warning: Material /Game/Sonic/Textures/knurling.knurling missing bUsedWithSkeletalMesh=True! Default Material will be used in game.
+[2015.10.28-17.48.33:687][ 72]LogMaterial:Warning:      The material will recompile every editor launch until resaved.
+[2015.10.28-17.48.33:697][ 72]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.69
+[2015.10.28-17.49.55:568][693]LogEditorFactories: Performing atomic reimport of [C:/Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Assets/Corey/Models/Road_L.fbx]
+[2015.10.28-17.49.55:581][693]LogFbx: Loading FBX Scene from C:/Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Assets/Corey/Models/Road_L.fbx
+[2015.10.28-17.49.55:592][693]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.28-17.49.55:595][693]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2015.10.28-17.49.55:596][693]LogFbx:Warning: Triangulating static mesh Plane.001
+[2015.10.28-17.49.55:700][693]LogStaticMesh: Building static mesh Road_L...
+[2015.10.28-17.49.55:710][693]LogStaticMesh: Built static mesh [0.010914.2s] /Game/Assets/Models/Road_L.Road_L
+[2015.10.28-17.49.55:713][693]LogEditorFactories: -- imported successfully
+[2015.10.28-17.49.59:405][883]LogEditorFactories: Performing atomic reimport of [C:/Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Assets/Corey/Models/Road.fbx]
+[2015.10.28-17.49.59:416][883]LogFbx: Loading FBX Scene from C:/Users/Corey/Documents/Unreal Projects/TheTARDISExperience/Assets/Corey/Models/Road.fbx
+[2015.10.28-17.49.59:425][883]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.28-17.49.59:428][883]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2015.10.28-17.49.59:428][883]LogFbx:Warning: Triangulating static mesh Plane
+[2015.10.28-17.49.59:440][883]LogStaticMesh: Building static mesh Road...
+[2015.10.28-17.49.59:443][883]LogStaticMesh: Built static mesh [0.003703.2s] /Game/Assets/Models/Road.Road
+[2015.10.28-17.49.59:444][883]LogEditorFactories: -- imported successfully
+[2015.10.28-17.50.02:285][ 24]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007529E258A0
+[2015.10.28-17.50.09:083][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road2)
+[2015.10.28-17.50.09:955][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_L)
+[2015.10.28-17.50.10:328][404]Cmd: DELETE
+[2015.10.28-17.50.10:328][404]Cmd: ACTOR DELETE
+[2015.10.28-17.50.10:330][404]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.28-17.50.10:358][404]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2015.10.28-17.50.10:955][444]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road2)
+[2015.10.28-17.50.11:126][449]Cmd: DELETE
+[2015.10.28-17.50.11:126][449]Cmd: ACTOR DELETE
+[2015.10.28-17.50.11:127][449]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.28-17.50.11:148][449]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2015.10.28-17.50.12:000][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road)
+[2015.10.28-17.50.19:740][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.28-17.50.19:741][877]PIE: New page: PIE session: Untitled_1 (Oct 28, 2015, 3:50:19 AM)
+[2015.10.28-17.50.19:741][877]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.10.28-17.50.19:744][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002943s)
+[2015.10.28-17.50.19:745][877]LogAIModule: Creating AISystem for world Untitled_1
+[2015.10.28-17.50.19:745][877]LogPlayLevel: PIE: World Init took: (0.001591s)
+[2015.10.28-17.50.19:746][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004827s)
+[2015.10.28-17.50.19:794][877]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.28-17.50.19:806][877]LogInit: FAudioDevice initialized.
+[2015.10.28-17.50.19:845][877]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.28-17.50.19:850][877]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[0] has negative scale. Not currently supported
+[2015.10.28-17.50.19:850][877]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Assets/Models/Road.Road] ConvexElem[1] has negative scale. Not currently supported
+[2015.10.28-17.50.19:851][877]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2015.10.28-10.50.19
+[2015.10.28-17.50.19:851][877]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitr
