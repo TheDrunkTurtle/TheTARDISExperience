@@ -1,0 +1,762 @@
+﻿[2015.10.24-22.54.48:323][  0]Log file open, 10/24/15 16:54:48
+[2015.10.24-22.54.48:323][  0]LogInit:Display: Running engine for game: Capaldi_Tardis
+[2015.10.24-22.54.48:323][  0]LogInit:Display: RandInit(943291844) SRandInit(943291845).
+[2015.10.24-22.54.48:323][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.24-22.54.48:323][  0]LogStats: Stats thread started at 0.100361
+[2015.10.24-22.54.48:323][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.24-22.54.48:323][  0]LogInit: API Version: 2672455
+[2015.10.24-22.54.48:323][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.24-22.54.48:323][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.24-22.54.48:323][  0]LogInit: Build Configuration: Development
+[2015.10.24-22.54.48:323][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.24-22.54.48:323][  0]LogInit: Command line:  
+[2015.10.24-22.54.48:323][  0]LogInit: Base directory: I:/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.24-22.54.48:323][  0]LogInit: Rocket: 1
+[2015.10.24-22.54.48:339][  0]LogInit: Using libcurl 7.41.0
+[2015.10.24-22.54.48:339][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.24-22.54.48:339][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.24-22.54.48:339][  0]LogInit:  - other features:
+[2015.10.24-22.54.48:339][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.24-22.54.48:339][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.24-22.54.48:339][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.24-22.54.48:339][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.24-22.54.48:339][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.24-22.54.48:339][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.24-22.54.48:339][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.24-22.54.48:339][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.24-22.54.48:339][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.24-22.54.48:339][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.24-22.54.48:350][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.24-22.54.48:362][  0]LogInit: Object subsystem initialized
+[2015.10.24-22.54.48:364][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.24-22.54.48:364][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.24-22.54.48:379][  0]LogInit: Computer: COREYSPRECIOUS
+[2015.10.24-22.54.48:379][  0]LogInit: User: Corey
+[2015.10.24-22.54.48:379][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.24-22.54.48:379][  0]LogInit: High frequency timer resolution =3.418198 MHz
+[2015.10.24-22.54.48:379][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2015.10.24-22.54.48:379][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.24-22.54.48:379][  0]LogMemory: Process Physical Memory: 53.84 MB used, 53.84 MB peak
+[2015.10.24-22.54.48:379][  0]LogMemory: Process Virtual Memory: 55.34 MB used, 55.34 MB peak
+[2015.10.24-22.54.48:379][  0]LogMemory: Physical Memory: 10466.42 MB used, 32724.31 MB total
+[2015.10.24-22.54.48:379][  0]LogMemory: Virtual Memory: 364.37 MB used, 134217728.00 MB total
+[2015.10.24-22.54.48:428][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.24-22.54.49:492][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX TITAN X (Feature Level 11_0)
+[2015.10.24-22.54.49:492][  0]LogD3D11RHI: Adapter has 12176MB of dedicated video memory, 0MB of dedicated system memory, and 16362MB of shared system memory, 2 output[s]
+[2015.10.24-22.54.49:493][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.24-22.54.49:493][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16362MB of shared system memory, 0 output[s]
+[2015.10.24-22.54.49:494][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.24-22.54.49:509][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.24-22.54.49:509][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.24-22.54.49:538][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.24-22.54.49:551][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../Unreal Projects/Capaldi_Tardis/Intermediate/Shaders/WorkingDirectory/30860/).
+[2015.10.24-22.54.49:551][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../Unreal Projects/Capaldi_Tardis/Intermediate/Shaders/tmp/44FF0196471504BEEA586B9CB26653A7/'.
+[2015.10.24-22.54.49:551][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.24-22.54.51:011][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.24-22.54.51:019][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.24-22.54.51:029][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.24-22.54.51:038][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.24-22.54.51:047][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.24-22.54.51:052][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.24-22.54.51:059][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.24-22.54.51:064][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.24-22.54.51:068][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.24-22.54.51:074][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.24-22.54.51:079][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.24-22.54.51:084][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.24-22.54.51:085][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.24-22.54.51:108][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.24-22.54.51:113][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.24-22.54.51:118][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.24-22.54.51:124][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.24-22.54.51:124][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.24-22.54.51:264][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.24-22.54.51:384][  0]LogDerivedDataCache: Loaded boot cache 0.12s 41MB C:/Users/Corey/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.24-22.54.51:384][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Corey/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.24-22.54.51:384][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Capaldi_Tardis/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.24-22.54.51:384][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.24-22.54.51:384][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Capaldi_Tardis/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.24-22.54.51:384][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.24-22.54.51:560][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.24-22.54.51:572][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Corey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.24-22.54.51:884][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.24-22.54.51:889][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.24-22.54.52:069][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.24-22.54.52:069][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.24-22.54.52:491][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.24-22.54.53:579][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.10.24-22.54.53:605][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.24-22.54.53:971][  0]SourceControl: Info Source control is disabled
+[2015.10.24-22.54.53:972][  0]SourceControl: Info Source control is disabled
+[2015.10.24-22.54.53:993][  0]SourceControl: Info Source control is disabled
+[2015.10.24-22.54.54:021][  0]SourceControl: Info Source control is disabled
+[2015.10.24-22.54.54:288][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-22.54.54:437][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.10.24-22.54.54:437][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
+[2015.10.24-22.54.54:515][  0]LogEngine: Initializing Engine...
+[2015.10.24-22.54.54:518][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.24-22.54.54:518][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.24-22.54.54:709][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.24-22.54.54:726][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.24-22.54.54:741][  0]LogInit: FAudioDevice initialized.
+[2015.10.24-22.54.54:799][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Corey/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.24-22.54.54:817][  0]LogInit: Texture streaming: Enabled
+[2015.10.24-22.54.54:827][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.24-22.54.54:827][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.24-22.54.54:828][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 5c23449345eaff9b32885493c09453d1|b88b930091cb4a178825078811402870|daab068d-4a04-4064-b248-ec323833554c
+[2015.10.24-22.54.54:828][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.24-22.54.54:900][  0]LogInit: Transaction tracking system initialized
+[2015.10.24-22.54.54:955][  0]BlueprintLog: New page: Editor Load
+[2015.10.24-22.54.55:095][  0]LocalizationService: Info Localization service is disabled
+[2015.10.24-22.54.55:208][  0]LogConsoleResponse:Display: 
+[2015.10.24-22.54.55:380][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.24-22.54.55:493][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal Projects/Capaldi_Tardis/Content/' took 0.02s
+[2015.10.24-22.54.55:493][  0]SourceControl: Info Source control is disabled
+[2015.10.24-22.54.55:493][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Capaldi_Tardis/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.24-22.54.55:494][  0]LightingResults: New page: Lighting Build
+[2015.10.24-22.54.55:498][  0]MapCheck: New page: Map Check
+[2015.10.24-22.54.55:498][  0]LightingResults: New page: Lighting Build
+[2015.10.24-22.54.55:518][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D0AF5FB00
+[2015.10.24-22.54.55:754][  0]LogLinker:Warning: Asset '../../../../../Unreal Projects/Capaldi_Tardis/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-22.54.55:758][  0]LogLinker:Warning: Asset '../../../../../Unreal Projects/Capaldi_Tardis/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-22.54.59:402][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.24-22.54.59:421][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.24-22.54.59:422][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.24-22.54.59:554][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 131.994ms to complete.
+[2015.10.24-22.54.59:554][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.062
+[2015.10.24-22.54.59:764][  0]LogCollectionManager: Loaded 0 collections in 0.004281 seconds
+[2015.10.24-22.54.59:815][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal Projects/Capaldi_Tardis/Saved/Collections/' took 0.01s
+[2015.10.24-22.54.59:815][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal Projects/Capaldi_Tardis/Content/Developers/Corey/Collections/' took 0.01s
+[2015.10.24-22.54.59:815][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal Projects/Capaldi_Tardis/Content/Collections/' took 0.01s
+[2015.10.24-22.54.59:815][  0]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 1882 classes and 339 folders.
+[2015.10.24-22.54.59:835][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000013 seconds
+[2015.10.24-22.54.59:847][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.24-22.54.59:925][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2015.10.24-22.54.59:932][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.10.24-22.54.59:975][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.24-22.55.00:068][  0]LogLoad: Full Startup: 12.55 seconds (BP compile: 0.22 seconds)
+[2015.10.24-22.55.00:169][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.24-22.55.00:347][  0]LogRenderer: Reallocating scene render targets to support 820x380 (Frame:2).
+[2015.10.24-22.55.01:239][  9]LogAssetRegistry: Asset discovery search completed in 7.6722 seconds
+[2015.10.24-22.55.01:239][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2015.10.24-22.55.01:239][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2015.10.24-22.55.03:107][133]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:45).
+[2015.10.24-22.59.07:780][373]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.24-22.59.07:780][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.24-22.59.07:781][373]PIE: New page: PIE session: FirstPersonExampleMap (Oct 24, 2015, 10:59:07 AM)
+[2015.10.24-22.59.07:781][373]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.24-22.59.07:852][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070778s)
+[2015.10.24-22.59.07:854][373]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.24-22.59.07:855][373]LogPlayLevel: PIE: World Init took: (0.002951s)
+[2015.10.24-22.59.07:855][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.074430s)
+[2015.10.24-22.59.07:915][373]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.24-22.59.07:926][373]LogInit: FAudioDevice initialized.
+[2015.10.24-22.59.07:987][373]LogLinker:Warning: Asset '../../../../../Unreal Projects/Capaldi_Tardis/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.24-22.59.08:027][373]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.24-22.59.08:048][373]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.24-16.59.08
+[2015.10.24-22.59.08:048][373]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-22.59.08:048][373]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-22.59.08:049][373]LogWorld: Bringing up level for play took: 0.019552
+[2015.10.24-22.59.08:051][373]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.029
+[2015.10.24-22.59.08:051][373]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.24-22.59.31:515][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.24-22.59.31:553][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.24-22.59.31:579][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D6B9E9440
+[2015.10.24-22.59.40:410][297]Cmd: TRANSACTION UNDO
+[2015.10.24-22.59.40:410][297]LogEditorTransaction: Undo Create Actors
+[2015.10.24-22.59.41:686][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_Lights_BottomChamber)
+[2015.10.24-23.00.54:266][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_Lights_BottomChamber)
+[2015.10.24-23.00.55:661][814]LogMaterial: Missing cached shader map for material Light4, compiling. 
+[2015.10.24-23.00.55:795][814]LogMaterial: Missing cached shader map for material Light4, compiling. 
+[2015.10.24-23.00.55:798][814]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.00.55:823][814]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.10.24-23.00.56:993][840]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2015.10.24-23.00.56:993][840]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.24-23.00.56:993][840]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.24-23.01.01:622][ 27]LogMaterial: Missing cached shader map for material Light4, compiling. 
+[2015.10.24-23.01.01:627][ 27]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.01.01:927][ 37]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2015.10.24-23.01.01:927][ 37]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.24-23.01.01:927][ 37]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.24-23.01.03:407][ 93]LogMaterialEditor: Applying material Light4
+[2015.10.24-23.01.04:224][ 93]LogMaterial: Missing cached shader map for material Light4, compiling. 
+[2015.10.24-23.01.04:232][ 93]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.01.04:305][ 93]LogMaterial: Missing cached shader map for material Light4, compiling. 
+[2015.10.24-23.01.04:351][ 93]LogMaterial: Missing cached shader map for material Light4, compiling. 
+[2015.10.24-23.01.04:363][ 93]LogMaterial: 0.001987 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.01.15:870][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_ConsoleMain)
+[2015.10.24-23.01.16:691][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_FloorCenter_Catwalk_S8)
+[2015.10.24-23.01.19:086][652]LogMaterial: Missing cached shader map for material FloorCenter_Catwalk_S8_Diffuse_Mat, compiling. 
+[2015.10.24-23.01.19:217][652]LogMaterial: Missing cached shader map for material FloorCenter_Catwalk_S8_Diffuse_Mat, compiling. 
+[2015.10.24-23.01.19:227][652]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.01.19:256][652]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_43, compiling. 
+[2015.10.24-23.01.19:266][652]MaterialEditorStats: Info Base pass shader without light map: 43 instructions
+[2015.10.24-23.01.19:266][652]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.24-23.01.19:266][652]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.01.20:818][691]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2015.10.24-23.01.20:818][691]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.24-23.01.20:818][691]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.01.20:818][691]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.01.21:928][731]LogMaterial: Missing cached shader map for material FloorCenter_Catwalk_S8_Diffuse_Mat, compiling. 
+[2015.10.24-23.01.21:944][731]LogMaterial: Missing cached shader map for material FloorCenter_Catwalk_S8_Diffuse_Mat, compiling. 
+[2015.10.24-23.01.21:953][731]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.01.22:820][756]LogMaterialEditor: Applying material FloorCenter_Catwalk_S8_Diffuse_Mat
+[2015.10.24-23.01.23:823][756]LogMaterial: Missing cached shader map for material FloorCenter_Catwalk_S8_Diffuse_Mat, compiling. 
+[2015.10.24-23.01.23:861][756]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.01.23:909][756]LogMaterial: Missing cached shader map for material FloorCenter_Catwalk_S8_Diffuse_Mat, compiling. 
+[2015.10.24-23.01.23:980][756]LogMaterial: Missing cached shader map for material FloorCenter_Catwalk_S8_Diffuse_Mat, compiling. 
+[2015.10.24-23.01.24:004][756]LogMaterial: 0.002742 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.01.24:412][767]LogMaterialEditor: Saving and Compiling material FloorCenter_Catwalk_S8_Diffuse_Mat
+[2015.10.24-23.01.27:705][767]LogSavePackage: Save=21.474472ms
+[2015.10.24-23.01.27:705][767]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/FloorCenter_Catwalk_S8_Diffuse_MatB0BB73D0479BF26FBC476487AD13349A.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/FloorCenter_Catwalk_S8_Diffuse_Mat.uasset'
+[2015.10.24-23.01.27:709][767]LogSavePackage: Total save time: 45.421299ms
+[2015.10.24-23.01.27:709][767]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/FloorCenter_Catwalk_S8_Diffuse_Mat.uasset
+[2015.10.24-23.01.27:741][768]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.10.24-23.01.27:741][768]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 65 instructions
+[2015.10.24-23.01.27:742][768]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.01.27:742][768]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.24-23.01.44:076][341]Cmd: TRANSACTION UNDO
+[2015.10.24-23.01.44:076][341]LogEditorTransaction: Undo Scale Actors
+[2015.10.24-23.01.44:095][341]LogMaterial: Missing cached shader map for material Light4, compiling. 
+[2015.10.24-23.01.44:098][341]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.01.44:119][341]LogMaterial: Missing cached shader map for material FloorCenter_Catwalk_S8_Diffuse_Mat, compiling. 
+[2015.10.24-23.01.44:131][341]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.01.46:278][398]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.10.24-23.02.03:735][ 79]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TARDIS_Control_Room_S8_Console4_TelepathicPanel)
+[2015.10.24-23.02.04:707][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_Console4_TelepathicPanel)
+[2015.10.24-23.02.06:745][207]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.24-23.02.06:745][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.24-23.02.06:745][207]PIE: New page: PIE session: FirstPersonExampleMap (Oct 24, 2015, 11:02:06 AM)
+[2015.10.24-23.02.06:745][207]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.24-23.02.06:808][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062098s)
+[2015.10.24-23.02.06:809][207]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.24-23.02.06:810][207]LogPlayLevel: PIE: World Init took: (0.002130s)
+[2015.10.24-23.02.06:810][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.064707s)
+[2015.10.24-23.02.06:865][207]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.24-23.02.06:877][207]LogInit: FAudioDevice initialized.
+[2015.10.24-23.02.06:920][207]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.24-23.02.06:945][207]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.24-17.02.06
+[2015.10.24-23.02.06:946][207]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-23.02.06:946][207]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-23.02.06:947][207]LogWorld: Bringing up level for play took: 0.024245
+[2015.10.24-23.02.06:949][207]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.073
+[2015.10.24-23.02.06:949][207]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.24-23.02.06:952][207]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2015.10.24-23.02.06:952][207]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.24-23.02.06:952][207]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.24-23.02.06:953][207]MaterialEditorStats: Info Base pass shader with static lighting: 71 instructions
+[2015.10.24-23.02.06:953][207]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.10.24-23.02.06:953][207]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.02.06:953][207]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.02.17:181][722]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.24-23.02.17:249][722]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.24-23.02.17:276][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D7BB496C0
+[2015.10.24-23.02.18:110][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_DisplayConsole2)
+[2015.10.24-23.02.19:240][817]LogMaterial: Missing cached shader map for material Console2_Display_Mat, compiling. 
+[2015.10.24-23.02.19:344][817]LogMaterial: Missing cached shader map for material Console2_Display_Mat, compiling. 
+[2015.10.24-23.02.19:352][817]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.02.19:379][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2015.10.24-23.02.21:771][881]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2015.10.24-23.02.21:771][881]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.24-23.02.21:771][881]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.02.21:771][881]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.02.23:082][927]LogMaterial: Missing cached shader map for material Console2_Display_Mat, compiling. 
+[2015.10.24-23.02.23:091][927]LogMaterial: 0.000181 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.02.24:564][967]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2015.10.24-23.02.24:564][967]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.24-23.02.24:564][967]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.02.24:564][967]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.02.24:834][977]LogMaterial: Missing cached shader map for material Console2_Display_Mat, compiling. 
+[2015.10.24-23.02.24:844][977]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.02.26:405][ 16]LogMaterialEditor: Saving and Compiling material Console2_Display_Mat
+[2015.10.24-23.02.27:274][ 16]LogMaterial: Missing cached shader map for material Console2_Display_Mat, compiling. 
+[2015.10.24-23.02.27:309][ 16]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.02.27:358][ 16]LogMaterial: Missing cached shader map for material Console2_Display_Mat, compiling. 
+[2015.10.24-23.02.27:424][ 16]LogMaterial: Missing cached shader map for material Console2_Display_Mat, compiling. 
+[2015.10.24-23.02.27:445][ 16]LogMaterial: 0.002017 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.02.30:954][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tardis/materials/Console2_Display_Mat" FILE="../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Console2_Display_Mat.uasset" SILENT=true
+[2015.10.24-23.02.30:999][ 16]LogSavePackage: Save=22.769306ms
+[2015.10.24-23.02.30:999][ 16]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Console2_Display_MatDBC8E6FD426693574E11C5B184618A72.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Console2_Display_Mat.uasset'
+[2015.10.24-23.02.31:004][ 16]LogSavePackage: Total save time: 48.323121ms
+[2015.10.24-23.02.31:004][ 16]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Console2_Display_Mat.uasset
+[2015.10.24-23.02.31:036][ 17]MaterialEditorStats: Info Base pass shader with static lighting: 92 instructions
+[2015.10.24-23.02.31:036][ 17]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.10.24-23.02.31:036][ 17]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.02.31:036][ 17]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.24-23.05.38:244][571]LogSavePackage: Save=3089.972656ms
+[2015.10.24-23.05.38:244][571]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/FirstPersonExampleMap_Auto1848F82B345E766289C44199A76B92D56.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.10.24-23.05.38:269][571]LogSavePackage: Total save time: 3165.806662ms
+[2015.10.24-23.05.38:269][571]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2015.10.24-23.05.38:313][571]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 3.242
+[2015.10.24-23.05.38:313][571]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.242
+[2015.10.24-23.05.38:383][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tardis/materials/Light4] ([1] browsable assets)...
+[2015.10.24-23.05.38:435][571]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Tardis/materials/Light4.Light4]
+[2015.10.24-23.05.38:435][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tardis/materials/Light4]
+[2015.10.24-23.05.38:437][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tardis/materials/Light4" FILE="../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/materials/Light4_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.10.24-23.05.38:591][571]LogSavePackage: Save=16.083328ms
+[2015.10.24-23.05.38:591][571]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Light4_Auto18A6FED6B4F1EF8FD99ADE28BD6258D45.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/materials/Light4_Auto1.uasset'
+[2015.10.24-23.05.38:591][571]LogSavePackage: Total save time: 133.814950ms
+[2015.10.24-23.05.38:591][571]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/materials/Light4_Auto1.uasset
+[2015.10.24-23.05.38:591][571]LogFileHelpers: Auto-saving content packages took 0.255
+[2015.10.24-23.10.16:887][406]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.24-23.21.30:473][369]LogEditorFactories: Performing atomic reimport of [C:/Users/Corey/Downloads/TARDIS Control Room_S7-8/TARDIS Control Room_S7-8/RAINBOW.psd]
+[2015.10.24-23.21.30:473][369]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Corey/Downloads/TARDIS Control Room_S7-8/TARDIS Control Room_S7-8/RAINBOW.psd)
+[2015.10.24-23.21.30:617][369]LogTexture:Display: Building textures: RAINBOW (AutoDXT)
+[2015.10.24-23.21.32:219][369]LogEditorFactories: -- imported successfully
+[2015.10.24-23.21.41:723][762]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.21.41:837][762]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.21.41:849][762]LogMaterial: 0.000532 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.21.41:877][762]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2015.10.24-23.21.41:882][762]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.24-23.21.44:412][817]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2015.10.24-23.21.44:412][817]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.10.24-23.21.44:412][817]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.21.44:412][817]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.24-23.21.46:627][884]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.21.46:635][884]LogMaterial: 0.000168 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.21.46:666][884]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.24-23.21.48:285][925]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2015.10.24-23.21.48:286][925]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.10.24-23.21.48:286][925]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.21.48:286][925]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.24-23.21.55:655][156]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.21.55:663][156]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.21.57:488][207]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2015.10.24-23.21.57:488][207]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.24-23.21.57:488][207]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.21.57:488][207]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.24-23.22.04:961][454]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.22.04:969][454]LogMaterial: 0.000221 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.22.06:554][497]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2015.10.24-23.22.06:554][497]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.24-23.22.06:554][497]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.24-23.22.06:554][497]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.10.24-23.22.08:097][541]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.22.08:106][541]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.22.08:131][541]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2015.10.24-23.22.09:889][574]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2015.10.24-23.22.09:890][574]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.24-23.22.09:890][574]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.22.09:890][574]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.22.10:208][583]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.22.10:217][583]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.22.10:243][583]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.24-23.22.13:912][624]LogSavePackage: Save=1757.361938ms
+[2015.10.24-23.22.13:912][624]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/FirstPersonExampleMapADB634E24FF51038C4351AA0EC840E03.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.10.24-23.22.13:922][624]LogSavePackage: Total save time: 1822.629645ms
+[2015.10.24-23.22.13:922][624]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2015.10.24-23.22.13:971][624]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.092
+[2015.10.24-23.22.14:004][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tardis/textures/RAINBOW" FILE="../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/textures/RAINBOW.uasset" SILENT=true
+[2015.10.24-23.22.14:246][624]LogSavePackage: Save=220.116852ms
+[2015.10.24-23.22.14:246][624]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/RAINBOWA95BF1814AD777AEFD8A03958A8B3715.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/textures/RAINBOW.uasset'
+[2015.10.24-23.22.14:248][624]LogSavePackage: Total save time: 242.027231ms
+[2015.10.24-23.22.14:248][624]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/textures/RAINBOW.uasset
+[2015.10.24-23.22.14:255][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tardis/materials/Light4" FILE="../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Light4.uasset" SILENT=true
+[2015.10.24-23.22.14:281][624]LogSavePackage: Save=6.619862ms
+[2015.10.24-23.22.14:281][624]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Light4A4BB15C848ABE5B26FCAE484A79C7769.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Light4.uasset'
+[2015.10.24-23.22.14:285][624]LogSavePackage: Total save time: 28.074443ms
+[2015.10.24-23.22.14:285][624]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Light4.uasset
+[2015.10.24-23.22.14:323][625]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2015.10.24-23.22.14:323][625]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.24-23.22.14:323][625]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.22.14:323][625]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.24-23.22.29:031][146]LogMaterialEditor: Saving and Compiling material Console4_TelepathicPanel_Diffuse_Mat
+[2015.10.24-23.22.29:867][146]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.22.29:902][146]LogMaterial: 0.000200 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.22.29:972][146]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.22.30:039][146]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.22.30:065][146]LogMaterial: 0.002546 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.22.33:608][146]LogSavePackage: Save=19.990942ms
+[2015.10.24-23.22.33:608][146]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Console4_TelepathicPanel_Diffuse_Mat2036C4044AB7457A49753C9D9C874047.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Console4_TelepathicPanel_Diffuse_Mat.uasset'
+[2015.10.24-23.22.33:613][146]LogSavePackage: Total save time: 41.750655ms
+[2015.10.24-23.22.33:613][146]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Console4_TelepathicPanel_Diffuse_Mat.uasset
+[2015.10.24-23.22.33:651][147]MaterialEditorStats: Info Base pass shader with static lighting: 95 instructions
+[2015.10.24-23.22.33:651][147]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.10.24-23.22.33:651][147]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.22.33:651][147]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.10.24-23.22.37:379][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.24-23.22.37:379][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.24-23.22.37:379][282]PIE: New page: PIE session: FirstPersonExampleMap (Oct 24, 2015, 11:22:37 AM)
+[2015.10.24-23.22.37:379][282]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.24-23.22.37:436][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056984s)
+[2015.10.24-23.22.37:438][282]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.24-23.22.37:439][282]LogPlayLevel: PIE: World Init took: (0.002535s)
+[2015.10.24-23.22.37:439][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.060100s)
+[2015.10.24-23.22.37:492][282]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.24-23.22.37:502][282]LogInit: FAudioDevice initialized.
+[2015.10.24-23.22.37:545][282]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.24-23.22.37:566][282]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.24-17.22.37
+[2015.10.24-23.22.37:566][282]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-23.22.37:567][282]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.24-23.22.37:567][282]LogWorld: Bringing up level for play took: 0.020916
+[2015.10.24-23.22.37:569][282]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.547
+[2015.10.24-23.22.37:569][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.24-23.22.47:047][666]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.24-23.22.47:121][666]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.24-23.22.47:149][666]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009DBC2AE520
+[2015.10.24-23.23.00:983][143]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.00:992][143]LogMaterial: 0.000172 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.03:697][203]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2015.10.24-23.23.03:697][203]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.24-23.23.03:697][203]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.23.03:698][203]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.24-23.23.06:241][281]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.06:249][281]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.06:280][281]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.24-23.23.07:923][316]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2015.10.24-23.23.07:923][316]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.24-23.23.07:923][316]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.23.07:923][316]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.24-23.23.08:501][332]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.08:511][332]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.10:221][372]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2015.10.24-23.23.10:221][372]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.24-23.23.10:221][372]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.23.10:221][372]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.24-23.23.12:770][462]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.12:780][462]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.14:410][500]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2015.10.24-23.23.14:410][500]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.24-23.23.14:410][500]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.23.14:410][500]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.24-23.23.14:896][516]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.14:904][516]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.16:619][560]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2015.10.24-23.23.16:619][560]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.24-23.23.16:619][560]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.23.16:619][560]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.23.18:016][612]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.18:026][612]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.19:709][653]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2015.10.24-23.23.19:709][653]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.24-23.23.19:709][653]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.23.19:709][653]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.24-23.23.19:993][662]LogMaterialEditor: Applying material Console4_TelepathicPanel_Diffuse_Mat
+[2015.10.24-23.23.20:816][662]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.20:850][662]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.20:946][662]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.21:012][662]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.21:034][662]LogMaterial: 0.002181 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.35:725][160]MaterialEditorStats: Info Base pass shader with static lighting: 95 instructions
+[2015.10.24-23.23.35:725][160]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.10.24-23.23.35:725][160]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.23.35:725][160]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.10.24-23.23.45:477][435]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.45:486][435]LogMaterial: 0.000238 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.48:012][505]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2015.10.24-23.23.48:013][505]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.24-23.23.48:013][505]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.23.48:013][505]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.23.49:669][558]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.49:678][558]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.49:822][561]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.49:833][561]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.50:719][582]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.50:730][582]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.52:662][624]MaterialEditorStats: Info Base pass shader with static lighting: 65 instructions
+[2015.10.24-23.23.52:662][624]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.10.24-23.23.52:662][624]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.23.52:662][624]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.23.57:714][787]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.23.57:723][787]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.23.59:423][830]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2015.10.24-23.23.59:423][830]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.24-23.23.59:423][830]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.23.59:424][830]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.24.04:754][997]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.24.04:764][997]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.24.06:484][ 43]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2015.10.24-23.24.06:484][ 43]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.24-23.24.06:484][ 43]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.24.06:484][ 43]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.24.10:056][163]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.24.10:064][163]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.24.11:666][207]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2015.10.24-23.24.11:666][207]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.24-23.24.11:666][207]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.24.11:666][207]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.24.13:127][256]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.24.13:136][256]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.24.14:946][287]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2015.10.24-23.24.14:946][287]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.24-23.24.14:946][287]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.24.14:946][287]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.24.18:896][400]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.24.18:904][400]LogMaterial: 0.000266 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.24.18:906][400]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.24-23.24.18:935][400]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2015.10.24-23.24.18:941][400]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.24-23.24.18:945][400]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.24-23.24.20:666][438]MaterialEditorStats: Info Base pass shader with static lighting: 64 instructions
+[2015.10.24-23.24.20:666][438]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.24-23.24.20:666][438]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.24.20:666][438]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.24-23.24.23:279][512]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.24.23:287][512]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.24.23:312][512]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.10.24-23.24.25:024][548]MaterialEditorStats: Info Base pass shader with static lighting: 67 instructions
+[2015.10.24-23.24.25:024][548]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.10.24-23.24.25:024][548]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.24.25:024][548]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.24-23.24.30:667][728]LogMaterialEditor: Applying material Console4_TelepathicPanel_Diffuse_Mat
+[2015.10.24-23.24.31:498][728]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.24.31:530][728]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.24.31:587][728]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.24.31:645][728]LogMaterial: Missing cached shader map for material Console4_TelepathicPanel_Diffuse_Mat, compiling. 
+[2015.10.24-23.24.31:666][728]LogMaterial: 0.002419 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.24-23.24.32:201][740]LogMaterialEditor: Saving and Compiling material Console4_TelepathicPanel_Diffuse_Mat
+[2015.10.24-23.24.36:799][740]LogSavePackage: Save=21.002586ms
+[2015.10.24-23.24.36:799][740]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Console4_TelepathicPanel_Diffuse_MatFA882FC641D2D8D70CA5708CC7396233.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Console4_TelepathicPanel_Diffuse_Mat.uasset'
+[2015.10.24-23.24.36:804][740]LogSavePackage: Total save time: 39.386246ms
+[2015.10.24-23.24.36:804][740]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Console4_TelepathicPanel_Diffuse_Mat.uasset
+[2015.10.24-23.24.36:847][741]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.10.24-23.24.36:847][741]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 65 instructions
+[2015.10.24-23.24.36:847][741]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.24-23.24.36:848][741]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.10.24-23.53.10:813][674]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.25-00.06.20:009][119]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.25-00.06.20:511][120]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.25-00.06.26:043][137]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.25-00.06.26:545][138]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.25-00.06.27:780][142]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.25-00.06.28:281][143]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.25-00.06.28:784][144]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.25-00.09.40:120][834]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.10.25-00.09.44:791][952]LogMaterial: Missing cached shader map for material Light4, compiling. 
+[2015.10.25-00.09.44:799][952]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.25-00.09.44:880][952]LogMaterial: Missing cached shader map for material Light4, compiling. 
+[2015.10.25-00.09.44:927][952]LogMaterial: Missing cached shader map for material Light4, compiling. 
+[2015.10.25-00.09.44:940][952]LogMaterial: 0.002410 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.25-00.09.46:813][952]LogMaterial: Missing cached shader map for material FloorCenter_Catwalk_S8_Diffuse_Mat, compiling. 
+[2015.10.25-00.09.46:860][952]LogMaterial: 0.000210 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.25-00.09.46:927][952]LogMaterial: Missing cached shader map for material FloorCenter_Catwalk_S8_Diffuse_Mat, compiling. 
+[2015.10.25-00.09.46:996][952]LogMaterial: Missing cached shader map for material FloorCenter_Catwalk_S8_Diffuse_Mat, compiling. 
+[2015.10.25-00.09.47:018][952]LogMaterial: 0.002071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.25-00.09.54:297][952]LogSavePackage: Save=21.894869ms
+[2015.10.25-00.09.54:297][952]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/FloorCenter_Catwalk_S8_Diffuse_Mat8FFEC1AC4C5B54C7BDE5798C9C858455.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/FloorCenter_Catwalk_S8_Diffuse_Mat.uasset'
+[2015.10.25-00.09.54:301][952]LogSavePackage: Total save time: 48.399769ms
+[2015.10.25-00.09.54:301][952]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/FloorCenter_Catwalk_S8_Diffuse_Mat.uasset
+[2015.10.25-00.09.54:336][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tardis/materials/Light4" FILE="../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Light4.uasset" SILENT=true
+[2015.10.25-00.09.54:369][952]LogSavePackage: Save=12.651402ms
+[2015.10.25-00.09.54:369][952]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Light4A764AF1F4AFA1DD91A8C41A3C2A1DB29.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Light4.uasset'
+[2015.10.25-00.09.54:371][952]LogSavePackage: Total save time: 33.512980ms
+[2015.10.25-00.09.54:371][952]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/Light4.uasset
+[2015.10.25-00.09.54:941][952]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.25-00.09.54:941][952]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.25-00.09.55:360][953]Cmd: QUIT_EDITOR
+[2015.10.25-00.09.56:576][953]LogExit: Preparing to exit.
+[2015.10.25-00.09.57:724][953]LogExit: Editor shut down
+[2015.10.25-00.09.57:725][953]LogExit: Transaction tracking system shut down
+[2015.10.25-00.09.57:734][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D4419FB00
+[2015.10.25-00.09.57:764][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D34FCF420
+[2015.10.25-00.09.57:765][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D3145F880
+[2015.10.25-00.09.57:765][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D46E77CE0
+[2015.10.25-00.09.57:766][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D5BF0D300
+[2015.10.25-00.09.57:768][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D7BA38680
+[2015.10.25-00.09.57:771][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D7AC4B240
+[2015.10.25-00.09.57:771][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009D7BA3AD40
+[2015.10.25-00.09.58:474][953]LogExit: Object subsystem successfully closed.
+[2015.10.25-00.09.58:538][953]LogD3D11RHI: Shutdown
+[2015.10.25-00.09.58:538][953]LogD3D11RHI: CleanupD3DDevice
+[2015.10.25-00.09.58:775][953]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.25-00.09.58:804][953]LogModuleManager: Shutting down and abandoning module MaterialEditor (200)
+[2015.10.25-00.09.58:804][953]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2015.10.25-00.09.58:804][953]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2015.10.25-00.09.58:804][953]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2015.10.25-00.09.58:804][953]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2015.10.25-00.09.58:804][953]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2015.10.25-00.09.58:809][953]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2015.10.25-00.09.58:810][953]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2015.10.25-00.09.58:810][953]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2015.10.25-00.09.58:810][953]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.10.25-00.09.58:811][953]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.10.25-00.09.58:812][953]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.10.25-00.09.59:255][953]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.10.25-00.09.59:255][953]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.10.25-00.09.59:255][953]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.10.25-00.09.59:255][953]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.10.25-00.09.59:255][953]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.10.25-00.09.59:255][953]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.10.25-00.09.59:255][953]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.10.25-00.09.59:256][953]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.10.25-00.09.59:256][953]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.10.25-00.09.59:256][953]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.10.25-00.09.59:256][953]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.10.25-00.09.59:256][953]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.10.25-00.09.59:256][953]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.10.25-00.09.59:256][953]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.10.25-00.09.59:256][953]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.10.25-00.09.59:256][953]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.10.25-00.09.59:256][953]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.10.25-00.09.59:256][953]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.10.25-00.09.59:256][953]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.10.25-00.09.59:257][953]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.10.25-00.09.59:257][953]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.10.25-00.09.59:257][953]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.10.25-00.09.59:257][953]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.10.25-00.09.59:257][953]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.10.25-00.09.59:257][953]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.10.25-00.09.59:257][953]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.10.25-00.09.59:258][953]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.10.25-00.09.59:259][953]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.10.25-00.09.59:259][953]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.10.25-00.09.59:259][953]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.10.25-00.09.59:259][953]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.10.25-00.09.59:259][953]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.10.25-00.09.59:259][953]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.10.25-00.09.59:259][953]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.10.25-00.09.59:259][953]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.10.25-00.09.59:259][953]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.10.25-00.09.59:259][953]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.10.25-00.09.59:259][953]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.10.25-00.09.59:269][953]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.10.25-00.09.59:269][953]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2015.10.25-00.09.59:269][953]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.10.25-00.09.59:269][953]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.10.25-00.09.59:269][953]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.10.25-00.09.59:269][953]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.10.25-00.09.59:269][953]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.10.25-00.09.59:269][953]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.10.25-00.09.59:269][953]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.10.25-00.09.59:365][953]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.10.25-00.09.59:366][953]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.10.25-00.09.59:367][953]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.10.25-00.09.59:367][953]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.10.25-00.09.59:367][953]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.10.25-00.09.59:367][953]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.10.25-00.09.59:367][953]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.10.25-00.09.59:367][953]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.10.25-00.09.59:367][953]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.10.25-00.09.59:367][953]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.10.25-00.09.59:367][953]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.10.25-00.09.59:370][953]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2015.10.25-00.09.59:371][953]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2015.10.25-00.09.59:371][953]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2015.10.25-00.09.59:472][953]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.10.25-00.09.59:475][953]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2015.10.25-00.09.59:618][953]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2015.10.25-00.09.59:618][953]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.25-00.09.59:618][953]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.25-00.09.59:618][953]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.25-00.09.59:618][953]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.25-00.09.59:618][953]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.25-00.09.59:618][953]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.25-00.09.59:618][953]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.25-00.09.59:618][953]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.25-00.09.59:618][953]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.25-00.09.59:618][953]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.25-00.09.59:619][953]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.25-00.09.59:619][953]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.25-00.09.59:619][953]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.25-00.09.59:619][953]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.25-00.09.59:619][953]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.25-00.09.59:619][953]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.25-00.09.59:619][953]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.25-00.09.59:619][953]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.25-00.09.59:619][953]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.25-00.09.59:622][953]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.25-00.09.59:622][953]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.25-00.09.59:622][953]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.25-00.09.59:622][953]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.25-00.09.59:622][953]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.25-00.09.59:622][953]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.25-00.09.59:622][953]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.25-00.09.59:622][953]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.25-00.09.59:622][953]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.25-00.09.59:622][953]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.25-00.09.59:633][953]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.25-00.09.59:678][953]LogDerivedDataCache: Shutdown
+[2015.10.25-00.09.59:678][953]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.25-00.09.59:678][953]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.25-00.09.59:678][953]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.25-00.09.59:678][953]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.25-00.09.59:678][953]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.25-00.09.59:678][953]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.25-00.09.59:679][953]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.25-00.10.01:682][953]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.25-00.10.01:682][953]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.25-00.10.01:682][953]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.25-00.10.01:682][953]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.25-00.10.01:683][953]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.25-00.10.01:683][953]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.25-00.10.01:687][953]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.25-00.10.01:687][953]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.25-00.10.01:687][953]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.25-00.10.01:687][953]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.25-00.10.01:687][953]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.25-00.10.01:687][953]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.25-00.10.01:687][953]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.25-00.10.01:687][953]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.25-00.10.01:687][953]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.25-00.10.01:687][953]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.25-00.10.01:688][953]LogExit: Exiting.
+[2015.10.25-00.10.01:690][953]Log file closed, 10/24/15 18:10:01

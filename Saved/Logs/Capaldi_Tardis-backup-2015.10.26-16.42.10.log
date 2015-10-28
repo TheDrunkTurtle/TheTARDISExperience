@@ -1,0 +1,1377 @@
+﻿[2015.10.26-20.51.50:618][  0]Log file open, 10/26/15 13:51:50
+[2015.10.26-20.51.50:618][  0]LogInit:Display: Running engine for game: Capaldi_Tardis
+[2015.10.26-20.51.50:618][  0]LogInit:Display: RandInit(-585867825) SRandInit(-585867824).
+[2015.10.26-20.51.50:618][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.26-20.51.50:618][  0]LogStats: Stats thread started at 0.185183
+[2015.10.26-20.51.50:618][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.26-20.51.50:618][  0]LogInit: API Version: 2672455
+[2015.10.26-20.51.50:618][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.26-20.51.50:618][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.26-20.51.50:618][  0]LogInit: Build Configuration: Development
+[2015.10.26-20.51.50:618][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.26-20.51.50:618][  0]LogInit: Command line:  
+[2015.10.26-20.51.50:618][  0]LogInit: Base directory: I:/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.26-20.51.50:618][  0]LogInit: Rocket: 1
+[2015.10.26-20.51.50:682][  0]LogInit: Using libcurl 7.41.0
+[2015.10.26-20.51.50:682][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.26-20.51.50:682][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.26-20.51.50:682][  0]LogInit:  - other features:
+[2015.10.26-20.51.50:682][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.26-20.51.50:682][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.26-20.51.50:682][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.26-20.51.50:682][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.26-20.51.50:682][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.26-20.51.50:682][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.26-20.51.50:682][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.26-20.51.50:682][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.26-20.51.50:682][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.26-20.51.50:682][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.26-20.51.50:775][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.26-20.51.50:785][  0]LogInit: Object subsystem initialized
+[2015.10.26-20.51.50:787][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.26-20.51.50:787][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.26-20.51.50:807][  0]LogInit: Computer: COREYSPRECIOUS
+[2015.10.26-20.51.50:807][  0]LogInit: User: Corey
+[2015.10.26-20.51.50:807][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.26-20.51.50:807][  0]LogInit: High frequency timer resolution =3.418198 MHz
+[2015.10.26-20.51.50:807][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2015.10.26-20.51.50:808][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.26-20.51.50:808][  0]LogMemory: Process Physical Memory: 53.95 MB used, 53.95 MB peak
+[2015.10.26-20.51.50:808][  0]LogMemory: Process Virtual Memory: 55.29 MB used, 55.29 MB peak
+[2015.10.26-20.51.50:808][  0]LogMemory: Physical Memory: 5348.43 MB used, 32724.31 MB total
+[2015.10.26-20.51.50:808][  0]LogMemory: Virtual Memory: 364.37 MB used, 134217728.00 MB total
+[2015.10.26-20.51.51:263][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.26-20.51.52:297][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX TITAN X (Feature Level 11_0)
+[2015.10.26-20.51.52:297][  0]LogD3D11RHI: Adapter has 12176MB of dedicated video memory, 0MB of dedicated system memory, and 16362MB of shared system memory, 2 output[s]
+[2015.10.26-20.51.52:299][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.26-20.51.52:299][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16362MB of shared system memory, 0 output[s]
+[2015.10.26-20.51.52:299][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.26-20.51.52:310][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.26-20.51.52:310][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.26-20.51.52:333][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.26-20.51.52:351][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../Unreal Projects/Capaldi_Tardis/Intermediate/Shaders/WorkingDirectory/26536/).
+[2015.10.26-20.51.52:351][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../Unreal Projects/Capaldi_Tardis/Intermediate/Shaders/tmp/9CFFD8C7439F189184040B93D21D8AE6/'.
+[2015.10.26-20.51.52:351][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.26-20.51.55:000][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.26-20.51.55:014][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.26-20.51.55:022][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.26-20.51.55:029][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.26-20.51.55:036][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.26-20.51.55:044][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.26-20.51.55:048][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.26-20.51.55:053][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.26-20.51.55:057][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.26-20.51.55:062][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.26-20.51.55:067][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.26-20.51.55:072][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.26-20.51.55:073][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.26-20.51.55:187][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.26-20.51.55:191][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.26-20.51.55:196][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.26-20.51.55:204][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.26-20.51.55:204][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.26-20.51.55:974][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.26-20.51.56:163][  0]LogDerivedDataCache: Loaded boot cache 0.19s 41MB C:/Users/Corey/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.26-20.51.56:164][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Corey/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.26-20.51.56:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/Capaldi_Tardis/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.26-20.51.56:164][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.26-20.51.56:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/Capaldi_Tardis/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.26-20.51.56:164][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.26-20.51.56:397][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.26-20.51.56:409][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Corey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.26-20.52.08:354][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.26-20.52.08:518][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.26-20.52.10:275][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.26-20.52.10:275][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.26-20.52.14:019][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.26-20.52.20:782][  0]LogAssetRegistry: FAssetRegistry took 0.0294 seconds to start up
+[2015.10.26-20.52.20:953][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.26-20.52.25:694][  0]SourceControl: Info Source control is disabled
+[2015.10.26-20.52.25:695][  0]SourceControl: Info Source control is disabled
+[2015.10.26-20.52.25:919][  0]SourceControl: Info Source control is disabled
+[2015.10.26-20.52.26:080][  0]SourceControl: Info Source control is disabled
+[2015.10.26-20.52.27:837][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-20.52.28:212][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.10.26-20.52.28:212][  0]LogUObjectAllocator: 6068464 out of 0 bytes used by permanent object pool.
+[2015.10.26-20.52.29:022][  0]LogEngine: Initializing Engine...
+[2015.10.26-20.52.29:075][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.26-20.52.29:106][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.26-20.52.30:002][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.26-20.52.30:313][  0]LogInit: XAudio2 using 'ORION-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-20.52.30:342][  0]LogInit: FAudioDevice initialized.
+[2015.10.26-20.52.30:387][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Corey/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.26-20.52.30:402][  0]LogInit: Texture streaming: Enabled
+[2015.10.26-20.52.30:456][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.26-20.52.30:480][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.26-20.52.30:480][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 5c23449345eaff9b32885493c09453d1|b88b930091cb4a178825078811402870|daab068d-4a04-4064-b248-ec323833554c
+[2015.10.26-20.52.30:481][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.26-20.52.30:620][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.26-20.52.30:620][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.26-20.52.30:788][  0]LogInit: Transaction tracking system initialized
+[2015.10.26-20.52.31:127][  0]BlueprintLog: New page: Editor Load
+[2015.10.26-20.52.33:206][  0]LocalizationService: Info Localization service is disabled
+[2015.10.26-20.52.33:962][  0]LogConsoleResponse:Display: 
+[2015.10.26-20.52.36:320][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal Projects/Capaldi_Tardis/Content/' took 0.03s
+[2015.10.26-20.52.36:320][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.26-20.52.38:646][  0]SourceControl: Info Source control is disabled
+[2015.10.26-20.52.38:813][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/Capaldi_Tardis/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.26-20.52.38:862][  0]LightingResults: New page: Lighting Build
+[2015.10.26-20.52.39:068][  0]MapCheck: New page: Map Check
+[2015.10.26-20.52.39:068][  0]LightingResults: New page: Lighting Build
+[2015.10.26-20.52.39:406][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034C2DDBB00
+[2015.10.26-20.53.23:387][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-20.53.24:005][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.26-20.53.24:046][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.26-20.53.24:451][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 404.501ms to complete.
+[2015.10.26-20.53.24:631][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 45.893
+[2015.10.26-20.53.26:396][  0]LogCollectionManager: Loaded 0 collections in 0.003229 seconds
+[2015.10.26-20.53.26:499][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal Projects/Capaldi_Tardis/Saved/Collections/' took 0.01s
+[2015.10.26-20.53.26:499][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal Projects/Capaldi_Tardis/Content/Developers/Corey/Collections/' took 0.01s
+[2015.10.26-20.53.26:499][  0]LogFileCache: Scanning file cache for directory 'I:/Unreal Projects/Capaldi_Tardis/Content/Collections/' took 0.01s
+[2015.10.26-20.53.26:499][  0]LogContentBrowser: Native class hierarchy populated in 0.0345 seconds. Added 1882 classes and 339 folders.
+[2015.10.26-20.53.26:689][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.10.26-20.53.26:836][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.26-20.53.27:461][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.26-20.53.27:524][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.10.26-20.53.27:834][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.26-20.53.28:358][  0]LogLoad: Full Startup: 99.55 seconds (BP compile: 0.79 seconds)
+[2015.10.26-20.53.28:866][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.26-20.53.29:800][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.10.26-20.53.31:189][ 10]LogAssetRegistry: Asset discovery search completed in 70.4193 seconds
+[2015.10.26-20.53.31:189][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.26-20.53.31:202][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2015.10.26-21.00.33:518][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.00.33:518][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-21.00.33:534][392]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 7:00:33 AM)
+[2015.10.26-21.00.33:534][392]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-21.00.33:671][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137495s)
+[2015.10.26-21.00.33:673][392]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-21.00.33:673][392]LogPlayLevel: PIE: World Init took: (0.002048s)
+[2015.10.26-21.00.33:675][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.140778s)
+[2015.10.26-21.00.33:760][392]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-21.00.33:771][392]LogInit: FAudioDevice initialized.
+[2015.10.26-21.00.34:929][392]LogLinker:Warning: Asset '../../../../../Unreal Projects/Capaldi_Tardis/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-21.00.35:546][392]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-21.00.35:730][392]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-14.00.35
+[2015.10.26-21.00.35:730][392]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-21.00.35:773][392]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-21.00.35:776][392]LogWorld: Bringing up level for play took: 0.195416
+[2015.10.26-21.00.36:053][392]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.336
+[2015.10.26-21.00.36:053][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.01.30:122][925]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.10.26-21.02.21:177][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.02.21:325][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.02.21:392][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034B51E2F20
+[2015.10.26-21.09.13:024][287]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.26-21.09.25:982][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_RotorBott)
+[2015.10.26-21.09.30:324][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_RotorBott)
+[2015.10.26-21.09.33:114][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_Glass_ShaftColumn)
+[2015.10.26-21.09.33:192][875]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.10.26-21.09.34:248][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_RotorBottCap)
+[2015.10.26-21.09.35:319][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_RotorBott)
+[2015.10.26-21.09.40:171][ 85]Cmd: TRANSACTION UNDO
+[2015.10.26-21.09.40:171][ 85]LogEditorTransaction: Undo Rotate Actors
+[2015.10.26-21.09.41:352][116]Cmd: TRANSACTION UNDO
+[2015.10.26-21.09.41:352][116]LogEditorTransaction: Undo Rotate Actors
+[2015.10.26-21.09.54:223][511]Cmd: TRANSACTION UNDO
+[2015.10.26-21.09.54:223][511]LogEditorTransaction: Undo Rotate Actors
+[2015.10.26-21.09.55:225][537]Cmd: TRANSACTION UNDO
+[2015.10.26-21.09.55:225][537]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.26-21.09.55:825][554]Cmd: TRANSACTION UNDO
+[2015.10.26-21.09.55:825][554]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.26-21.09.56:673][579]Cmd: TRANSACTION UNDO
+[2015.10.26-21.09.56:673][579]LogEditorTransaction: Undo Clicking on Components
+[2015.10.26-21.09.59:876][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_RotorBott)
+[2015.10.26-21.10.00:537][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_GlassRotorBott)
+[2015.10.26-21.10.00:860][701]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (TARDIS_Control_Room_S8_GlassRotorBott)
+[2015.10.26-21.10.01:674][728]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.26-21.10.02:409][748]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.26-21.10.03:066][767]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.26-21.10.09:241][958]Cmd: TRANSACTION UNDO
+[2015.10.26-21.10.09:242][958]LogEditorTransaction: Undo Rotate Actors
+[2015.10.26-21.10.09:507][963]Cmd: TRANSACTION UNDO
+[2015.10.26-21.10.09:508][963]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.26-21.10.09:668][966]Cmd: TRANSACTION UNDO
+[2015.10.26-21.10.09:668][966]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.26-21.10.09:926][972]Cmd: TRANSACTION UNDO
+[2015.10.26-21.10.09:926][972]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.26-21.10.10:159][979]Cmd: TRANSACTION UNDO
+[2015.10.26-21.10.10:159][979]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2015.10.26-21.10.10:372][985]Cmd: TRANSACTION UNDO
+[2015.10.26-21.10.10:372][985]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.26-21.10.10:577][991]Cmd: TRANSACTION UNDO
+[2015.10.26-21.10.10:577][991]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.26-21.10.10:768][996]Cmd: TRANSACTION UNDO
+[2015.10.26-21.10.10:768][996]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.26-21.10.10:953][  1]Cmd: TRANSACTION UNDO
+[2015.10.26-21.10.10:953][  1]LogEditorTransaction: Undo Regroup Ctrl+G
+[2015.10.26-21.10.10:974][  1]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TARDIS_Control_Room_S8_RotorBott_193.StaticMeshComponent0) Component already registered.
+[2015.10.26-21.10.11:836][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_RotorBott)
+[2015.10.26-21.10.48:363][217]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.10.48:363][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-21.10.48:364][217]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 7:10:48 AM)
+[2015.10.26-21.10.48:364][217]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-21.10.48:508][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144027s)
+[2015.10.26-21.10.48:510][217]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-21.10.48:511][217]LogPlayLevel: PIE: World Init took: (0.002735s)
+[2015.10.26-21.10.48:512][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.148669s)
+[2015.10.26-21.10.48:570][217]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-21.10.48:581][217]LogInit: FAudioDevice initialized.
+[2015.10.26-21.10.48:618][217]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-21.10.48:763][217]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-14.10.48
+[2015.10.26-21.10.48:763][217]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-21.10.48:763][217]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-21.10.48:766][217]LogWorld: Bringing up level for play took: 0.143243
+[2015.10.26-21.10.48:771][217]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.07
+[2015.10.26-21.10.48:771][217]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.11.22:910][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.11.23:003][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.11.23:104][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034B2AE6E80
+[2015.10.26-21.11.54:863][997]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.26-21.12.03:684][278]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.26-21.12.04:793][278]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 107 classes and 0 folders.
+[2015.10.26-21.13.37:623][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rani2_prim7_004)
+[2015.10.26-21.13.41:322][642]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2015.10.26-21.13.41:557][642]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.10.26-21.13.41:744][642]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-21.13.41:772][642]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2015.10.26-21.13.41:776][642]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2015.10.26-21.13.41:780][642]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2015.10.26-21.13.41:784][642]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.10.26-21.13.41:789][642]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2015.10.26-21.13.48:583][790]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 76 instructions
+[2015.10.26-21.13.48:583][790]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-21.13.48:583][790]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-21.14.12:724][614]Cmd: POLY SELECT ADJACENT WALLS
+[2015.10.26-21.14.31:204][185]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.10.26-21.14.32:254][217]Cmd: DELETE
+[2015.10.26-21.14.32:254][217]Cmd: ACTOR DELETE
+[2015.10.26-21.14.32:312][217]LogEditorActor: Deleted Actor: PointLight
+[2015.10.26-21.14.32:313][217]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-21.14.32:377][217]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2015.10.26-21.15.14:297][959]LogSavePackage: Save=1322.295898ms
+[2015.10.26-21.15.14:297][959]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/FirstPersonExampleMap_Auto1C8F4C3AA466244D787C2ADAD261B4C95.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.10.26-21.15.14:299][959]LogSavePackage: Total save time: 1408.999126ms
+[2015.10.26-21.15.14:299][959]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2015.10.26-21.15.14:308][959]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.513
+[2015.10.26-21.15.14:309][959]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.513
+[2015.10.26-21.15.14:482][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.10.26-21.15.14:513][959]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2015.10.26-21.15.14:513][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.10.26-21.15.14:677][959]LogSavePackage: Save=112.803589ms
+[2015.10.26-21.15.14:677][959]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/FirstPersonCharacter_Auto1CDE2F775469667230A55B5A182CC6B81.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2015.10.26-21.15.14:678][959]LogSavePackage: Total save time: 159.800280ms
+[2015.10.26-21.15.14:678][959]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset
+[2015.10.26-21.15.14:678][959]LogFileHelpers: Auto-saving content packages took 0.353
+[2015.10.26-21.45.26:848][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_StructureLowerLvl)
+[2015.10.26-21.45.27:225][151]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TARDIS_Control_Room_S8_StructureLowerLvl)
+[2015.10.26-21.45.28:540][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.45.28:540][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-21.45.28:540][181]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 7:45:28 AM)
+[2015.10.26-21.45.28:540][181]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-21.45.28:704][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.163720s)
+[2015.10.26-21.45.28:707][181]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-21.45.28:708][181]LogPlayLevel: PIE: World Init took: (0.003368s)
+[2015.10.26-21.45.28:709][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.168459s)
+[2015.10.26-21.45.28:709][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.26-21.45.28:839][181]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-21.45.28:852][181]LogInit: FAudioDevice initialized.
+[2015.10.26-21.45.28:899][181]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-21.45.29:075][181]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-14.45.29
+[2015.10.26-21.45.29:075][181]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-21.45.29:076][181]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-21.45.29:078][181]LogWorld: Bringing up level for play took: 0.176833
+[2015.10.26-21.45.29:083][181]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.383
+[2015.10.26-21.45.29:084][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.45.37:880][427]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.45.38:002][427]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.45.38:078][427]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000353D2CB920
+[2015.10.26-21.53.12:896][396]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.53.12:896][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-21.53.12:896][396]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 7:53:12 AM)
+[2015.10.26-21.53.12:896][396]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-21.53.13:052][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155584s)
+[2015.10.26-21.53.13:054][396]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-21.53.13:055][396]LogPlayLevel: PIE: World Init took: (0.003253s)
+[2015.10.26-21.53.13:056][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.159911s)
+[2015.10.26-21.53.13:162][396]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-21.53.13:173][396]LogInit: FAudioDevice initialized.
+[2015.10.26-21.53.13:218][396]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-21.53.13:405][396]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-14.53.13
+[2015.10.26-21.53.13:405][396]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-21.53.13:405][396]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-21.53.13:411][396]LogWorld: Bringing up level for play took: 0.190086
+[2015.10.26-21.53.13:418][396]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.283
+[2015.10.26-21.53.13:419][396]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.53.15:544][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.53.15:644][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-21.53.15:798][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034879458A0
+[2015.10.26-22.03.29:954][328]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.03.29:955][328]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-22.03.29:955][328]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 8:03:29 AM)
+[2015.10.26-22.03.29:955][328]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-22.03.30:093][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138075s)
+[2015.10.26-22.03.30:095][328]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-22.03.30:095][328]LogPlayLevel: PIE: World Init took: (0.002108s)
+[2015.10.26-22.03.30:096][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.141014s)
+[2015.10.26-22.03.30:191][328]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-22.03.30:203][328]LogInit: FAudioDevice initialized.
+[2015.10.26-22.03.30:243][328]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-22.03.30:398][328]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-15.03.30
+[2015.10.26-22.03.30:398][328]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.03.30:399][328]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.03.30:402][328]LogWorld: Bringing up level for play took: 0.156514
+[2015.10.26-22.03.30:409][328]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.709
+[2015.10.26-22.03.30:410][328]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.03.30:457][329]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.081723 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_5'
+[2015.10.26-22.04.17:133][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.04.17:228][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.04.17:374][816]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000353D2C9E40
+[2015.10.26-22.04.27:604][ 88]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.04.27:725][ 88]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.04.27:728][ 88]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.04.27:756][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_106, compiling. 
+[2015.10.26-22.04.29:055][ 98]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2015.10.26-22.04.29:055][ 98]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.04.29:055][ 98]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.04.43:438][493]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.04.43:445][493]LogMaterial: 0.000311 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.04.43:801][502]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2015.10.26-22.04.43:801][502]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.04.43:801][502]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.04.45:027][534]LogMaterialEditor: Applying material TARDIS_Control_Room_S8LIGHT_Mat
+[2015.10.26-22.04.45:867][534]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.04.45:875][534]LogMaterial: 0.000148 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.04.45:977][534]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.04.46:053][534]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.04.46:074][534]LogMaterial: 0.011284 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.04.48:213][585]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.04.48:213][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-22.04.48:213][585]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 8:04:48 AM)
+[2015.10.26-22.04.48:213][585]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-22.04.48:408][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.194666s)
+[2015.10.26-22.04.48:412][585]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-22.04.48:412][585]LogPlayLevel: PIE: World Init took: (0.004475s)
+[2015.10.26-22.04.48:413][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.200329s)
+[2015.10.26-22.04.48:540][585]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-22.04.48:554][585]LogInit: FAudioDevice initialized.
+[2015.10.26-22.04.48:600][585]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-22.04.48:815][585]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-15.04.48
+[2015.10.26-22.04.48:815][585]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.04.48:815][585]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.04.48:820][585]LogWorld: Bringing up level for play took: 0.217045
+[2015.10.26-22.04.48:834][585]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.134
+[2015.10.26-22.04.48:835][585]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.04.48:886][586]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073560 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_6'
+[2015.10.26-22.04.50:684][638]MaterialEditorStats: Info Base pass shader without light map: 46 instructions
+[2015.10.26-22.04.50:684][638]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.04.50:684][638]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.29.55:068][480]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Corey\AppData\Roaming\Skype\My Skype Received Files\image1.png)
+[2015.10.26-22.29.55:690][480]LogTexture:Display: Building textures: image1 (AutoDXT)
+[2015.10.26-22.30.06:303][504]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Corey\AppData\Roaming\Skype\My Skype Received Files\Baselights.fbx)
+[2015.10.26-22.30.06:480][504]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.26-22.30.06:480][504]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.10.26-22.30.06:480][504]LogFbx: ItemName: Model, ItemCount : 1
+[2015.10.26-22.30.06:480][504]LogFbx: ItemName: Material, ItemCount : 1
+[2015.10.26-22.30.06:495][504]LogFbx: Loading FBX Scene from C:\Users\Corey\AppData\Roaming\Skype\My Skype Received Files\Baselights.fbx
+[2015.10.26-22.30.06:527][504]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.26-22.30.38:823][504]LogFbx: Loading FBX Scene from C:\Users\Corey\AppData\Roaming\Skype\My Skype Received Files\Baselights.fbx
+[2015.10.26-22.30.38:834][504]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.26-22.30.38:838][504]LogFbx:Warning: Triangulating static mesh LightsCatwalkBase_S8
+[2015.10.26-22.30.39:080][504]LogStaticMesh: Building static mesh Baselights...
+[2015.10.26-22.30.39:174][504]LogStaticMesh: Built static mesh [0.094816.2s] /Game/Tardis/Models/Baselights.Baselights
+[2015.10.26-22.30.39:215][504]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.10.26-22.30.39:399][505]LogAnimation:Warning: SkeletalMesh TARDIS_Control_Room_S8_TubePistons has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-22.30.48:789][766]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.30.48:886][766]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.30.48:955][766]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034851A6340
+[2015.10.26-22.30.50:447][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_TrimCatwalk_S8)
+[2015.10.26-22.30.51:154][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_TrimCatwalk_S8)
+[2015.10.26-22.30.51:824][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_TrimCatwalk_S8)
+[2015.10.26-22.30.52:386][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_LightsCatwalkBase_S8)
+[2015.10.26-22.30.54:045][904]Cmd: DELETE
+[2015.10.26-22.30.54:045][904]Cmd: ACTOR DELETE
+[2015.10.26-22.30.54:049][904]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.26-22.30.54:113][904]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2015.10.26-22.30.57:216][996]Cmd: TRANSACTION UNDO
+[2015.10.26-22.30.57:217][996]LogEditorTransaction: Undo Delete Actors
+[2015.10.26-22.30.57:307][996]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.10.26-22.30.57:394][996]LogMaterial: 0.000236 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.30.57:417][996]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.30.57:420][996]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.30.59:864][ 50]LogAnimation:Warning: SkeletalMesh TARDIS_Control_Room_S8_TubePistons has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-22.31.00:223][ 54]LogAnimation:Warning: SkeletalMesh TARDIS_Control_Room_S8_TubePistons has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-22.31.00:704][ 63]LogAnimation:Warning: SkeletalMesh TARDIS_Control_Room_S8_TubePistons has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-22.31.01:127][ 64]LogActorFactory: Actor Factory created Baselights
+[2015.10.26-22.31.04:713][134]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 76 instructions
+[2015.10.26-22.31.04:713][134]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.31.04:713][134]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.31.04:908][140]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2015.10.26-22.31.04:908][140]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.31.04:908][140]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.31.05:718][163]LogActorFactory: Actor Factory created Baselights
+[2015.10.26-22.31.11:908][339]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_LightsCatwalkBase_S8)
+[2015.10.26-22.31.21:094][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Baselights)
+[2015.10.26-22.31.41:661][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_LightsCatwalkBase_S8)
+[2015.10.26-22.32.22:156][465]LogSavePackage: Save=1119.218994ms
+[2015.10.26-22.32.22:156][465]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/FirstPersonExampleMap_Auto20329E6704D2A0C9C79F1B6B7943DE7DA.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2015.10.26-22.32.22:160][465]LogSavePackage: Total save time: 1160.426926ms
+[2015.10.26-22.32.22:160][465]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2015.10.26-22.32.22:166][465]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.246
+[2015.10.26-22.32.22:166][465]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.246
+[2015.10.26-22.32.22:183][465]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tardis/materials/TARDIS_Control_Room_S8LIGHT_Mat] ([1] browsable assets)...
+[2015.10.26-22.32.22:203][465]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Tardis/materials/TARDIS_Control_Room_S8LIGHT_Mat.TARDIS_Control_Room_S8LIGHT_Mat]
+[2015.10.26-22.32.22:203][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tardis/materials/TARDIS_Control_Room_S8LIGHT_Mat]
+[2015.10.26-22.32.22:242][465]LogSavePackage: Save=19.521397ms
+[2015.10.26-22.32.22:242][465]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/TARDIS_Control_Room_S8LIGHT_Mat_Auto2A8F93FE349983B274C24B09F0A77D77B.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/materials/TARDIS_Control_Room_S8LIGHT_Mat_Auto2.uasset'
+[2015.10.26-22.32.22:313][465]LogSavePackage: Total save time: 109.024987ms
+[2015.10.26-22.32.22:313][465]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/materials/TARDIS_Control_Room_S8LIGHT_Mat_Auto2.uasset
+[2015.10.26-22.32.22:319][465]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tardis/textures/image1] ([1] browsable assets)...
+[2015.10.26-22.32.22:324][465]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Tardis/textures/image1.image1]
+[2015.10.26-22.32.22:324][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tardis/textures/image1]
+[2015.10.26-22.32.22:324][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tardis/textures/image1" FILE="../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/textures/image1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.10.26-22.32.22:374][465]LogSavePackage: Save=48.332485ms
+[2015.10.26-22.32.22:374][465]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/image1_Auto2F2906326436118A0415A3490673C4251.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/textures/image1_Auto2.uasset'
+[2015.10.26-22.32.22:411][465]LogSavePackage: Total save time: 85.416351ms
+[2015.10.26-22.32.22:411][465]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/textures/image1_Auto2.uasset
+[2015.10.26-22.32.22:417][465]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tardis/Models/Baselights] ([1] browsable assets)...
+[2015.10.26-22.32.22:436][465]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Tardis/Models/Baselights.Baselights]
+[2015.10.26-22.32.22:436][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tardis/Models/Baselights]
+[2015.10.26-22.32.22:436][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tardis/Models/Baselights" FILE="../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/Models/Baselights_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.10.26-22.32.22:456][465]LogSavePackage: Save=17.326965ms
+[2015.10.26-22.32.22:456][465]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Baselights_Auto24C1B4BDE4146CDA48B82CAA79DF35F99.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/Models/Baselights_Auto2.uasset'
+[2015.10.26-22.32.22:470][465]LogSavePackage: Total save time: 32.344818ms
+[2015.10.26-22.32.22:470][465]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/Models/Baselights_Auto2.uasset
+[2015.10.26-22.32.22:471][465]LogFileHelpers: Auto-saving content packages took 0.301
+[2015.10.26-22.33.06:999][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_Ceiling)
+[2015.10.26-22.33.08:423][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Baselights)
+[2015.10.26-22.33.16:490][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_LightsCatwalkBase_S8)
+[2015.10.26-22.33.21:398][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Baselights)
+[2015.10.26-22.33.40:517][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_LightsCatwalkBase_S8)
+[2015.10.26-22.33.42:547][876]Cmd: DELETE
+[2015.10.26-22.33.42:547][876]Cmd: ACTOR DELETE
+[2015.10.26-22.33.42:551][876]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.26-22.33.42:621][876]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2015.10.26-22.33.44:460][942]Cmd: TRANSACTION UNDO
+[2015.10.26-22.33.44:460][942]LogEditorTransaction: Undo Delete Actors
+[2015.10.26-22.33.44:523][942]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.10.26-22.33.44:548][942]LogMaterial: 0.000213 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.33.44:552][942]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.33.44:555][942]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.33.50:256][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_LightsCatwalkBase_S8)
+[2015.10.26-22.33.52:622][139]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 76 instructions
+[2015.10.26-22.33.52:622][139]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.33.52:622][139]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.33.52:735][142]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2015.10.26-22.33.52:735][142]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.33.52:735][142]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.34.07:711][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_LightsCatwalkBase_S8)
+[2015.10.26-22.34.09:645][632]Cmd: DELETE
+[2015.10.26-22.34.09:645][632]Cmd: ACTOR DELETE
+[2015.10.26-22.34.09:648][632]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.26-22.34.09:714][632]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2015.10.26-22.34.11:442][689]Cmd: TRANSACTION UNDO
+[2015.10.26-22.34.11:442][689]LogEditorTransaction: Undo Delete Actors
+[2015.10.26-22.34.11:523][689]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.10.26-22.34.11:547][689]LogMaterial: 0.000340 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.34.11:551][689]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.34.11:554][689]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.34.11:962][694]Cmd: TRANSACTION UNDO
+[2015.10.26-22.34.11:962][694]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.26-22.34.11:981][694]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.10.26-22.34.12:016][694]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.34.12:019][694]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.34.12:023][694]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.34.13:280][727]Cmd: TRANSACTION UNDO
+[2015.10.26-22.34.13:280][727]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.26-22.34.13:316][727]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.10.26-22.34.13:351][727]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.34.13:357][727]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.34.13:362][727]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.34.13:916][741]Cmd: TRANSACTION UNDO
+[2015.10.26-22.34.13:916][741]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.26-22.34.13:974][741]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.10.26-22.34.14:012][741]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.34.14:017][741]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.34.14:021][741]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.34.21:083][913]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 76 instructions
+[2015.10.26-22.34.21:083][913]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.34.21:083][913]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.34.21:189][915]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2015.10.26-22.34.21:189][915]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.34.21:189][915]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.34.29:820][167]Cmd: TRANSACTION UNDO
+[2015.10.26-22.34.29:820][167]LogEditorTransaction: Undo Set actor location
+[2015.10.26-22.34.29:838][167]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.10.26-22.34.29:862][167]LogMaterial: 0.000210 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.34.29:866][167]LogMaterial: Missing cached shader map for material TARDIS_Control_Room_S8LIGHT_Mat, compiling. 
+[2015.10.26-22.34.29:871][167]LogMaterial: 0.000375 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.34.32:588][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_LightsCatwalkBase_S8)
+[2015.10.26-22.34.33:730][254]Cmd: DELETE
+[2015.10.26-22.34.33:730][254]Cmd: ACTOR DELETE
+[2015.10.26-22.34.33:736][254]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.10.26-22.34.33:821][254]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2015.10.26-22.34.35:026][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Baselights)
+[2015.10.26-22.34.36:711][316]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 76 instructions
+[2015.10.26-22.34.36:711][316]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.34.36:711][316]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.34.36:827][319]MaterialEditorStats: Info Base pass shader without light map: 21 instructions
+[2015.10.26-22.34.36:827][319]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.34.36:827][319]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.35.07:030][ 41]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.35.17:812][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tardis/Models/image1_Mat" FILE="../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/Models/image1_Mat.uasset" SILENT=true
+[2015.10.26-22.35.17:832][308]LogSavePackage: Save=18.319302ms
+[2015.10.26-22.35.17:832][308]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/image1_MatB06DBB7E4A72960E240198A8BC6C96E0.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/Models/image1_Mat.uasset'
+[2015.10.26-22.35.17:834][308]LogSavePackage: Total save time: 20.706527ms
+[2015.10.26-22.35.17:834][308]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/Models/image1_Mat.uasset
+[2015.10.26-22.36.00:294][581]LogAnimation:Warning: SkeletalMesh TARDIS_Control_Room_S8_TubePistons has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-22.36.00:590][585]LogAnimation:Warning: SkeletalMesh TARDIS_Control_Room_S8_TubePistons has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-22.36.14:387][920]LogAnimation:Warning: SkeletalMesh TARDIS_Control_Room_S8_TubePistons has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-22.36.14:701][924]LogAnimation:Warning: SkeletalMesh TARDIS_Control_Room_S8_TubePistons has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-22.36.15:320][940]LogAnimation:Warning: SkeletalMesh TARDIS_Control_Room_S8_TubePistons has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-22.36.16:388][965]LogAnimation:Warning: SkeletalMesh TARDIS_Control_Room_S8_TubePistons has no skeleton. This needs to fixed before an animation can be set
+[2015.10.26-22.36.21:103][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tardis/materials/image1_Mat" FILE="../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/image1_Mat.uasset" SILENT=true
+[2015.10.26-22.36.21:125][ 81]LogSavePackage: Save=19.676449ms
+[2015.10.26-22.36.21:125][ 81]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/image1_Mat7E14D80642BADDF51321A39AEB0EFD49.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/image1_Mat.uasset'
+[2015.10.26-22.36.21:127][ 81]LogSavePackage: Total save time: 22.199709ms
+[2015.10.26-22.36.21:127][ 81]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/image1_Mat.uasset
+[2015.10.26-22.36.55:246][  5]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.36.55:389][  5]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.36.55:397][  5]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.36.55:422][  5]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.26-22.36.58:139][ 58]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.26-22.36.58:139][ 58]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.36.58:139][ 58]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.40.40:225][742]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.40.40:233][742]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.40.43:476][806]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.26-22.40.43:476][806]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.40.43:476][806]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.40.44:081][819]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.40.44:091][819]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.40.46:320][860]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.26-22.40.46:320][860]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.40.46:320][860]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.40.47:743][894]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.40.47:750][894]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.40.49:881][933]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.26-22.40.49:881][933]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.40.49:881][933]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.41.00:220][177]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.41.00:227][177]LogMaterial: 0.000148 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.41.02:439][220]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.26-22.41.02:439][220]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.41.02:439][220]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.41.09:682][382]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.41.09:692][382]LogMaterial: 0.000255 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.41.11:842][422]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.26-22.41.11:842][422]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.41.11:842][422]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.41.13:167][450]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.41.13:178][450]LogMaterial: 0.000186 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.41.13:207][450]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.26-22.41.15:445][489]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.10.26-22.41.15:445][489]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.41.15:445][489]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.41.28:702][789]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.41.28:712][789]LogMaterial: 0.000203 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.41.30:929][831]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.10.26-22.41.30:929][831]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.41.30:929][831]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.41.34:066][903]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.41.34:077][903]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.41.36:185][941]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.10.26-22.41.36:185][941]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.41.36:185][941]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.41.41:698][ 59]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.41.41:706][ 59]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.41.43:466][ 92]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.26-22.41.43:466][ 92]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.26-22.41.43:466][ 92]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.26-22.41.48:666][207]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.41.48:674][207]LogMaterial: 0.000235 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.41.50:568][240]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.41.50:580][240]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.41.50:613][240]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.26-22.41.50:714][241]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.26-22.41.50:714][241]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.26-22.41.50:714][241]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.26-22.41.55:366][322]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.41.55:377][322]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.41.57:264][358]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.26-22.41.57:264][358]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.41.57:264][358]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.42.20:302][877]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.42.20:314][877]LogMaterial: 0.000191 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.42.23:259][934]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.26-22.42.23:259][934]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.42.23:259][934]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.42.24:407][958]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.42.24:415][958]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.42.26:486][997]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.10.26-22.42.26:486][997]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.42.26:486][997]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.42.32:008][118]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.42.32:016][118]LogMaterial: 0.000164 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.42.33:821][150]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.42.33:830][150]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.42.33:929][151]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.10.26-22.42.33:929][151]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.42.33:929][151]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.42.35:942][186]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.26-22.42.35:942][186]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.42.35:942][186]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.43.15:502][562]LogSavePackage: Save=1184.722168ms
+[2015.10.26-22.43.15:502][562]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/FirstPersonExampleMap_Auto3F178C37B471B6EA5DC187291EE8DCEA7.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2015.10.26-22.43.15:507][562]LogSavePackage: Total save time: 1230.695821ms
+[2015.10.26-22.43.15:507][562]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap
+[2015.10.26-22.43.15:512][562]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.313
+[2015.10.26-22.43.15:512][562]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.313
+[2015.10.26-22.43.15:533][562]LogSavePackage: Save=3.837987ms
+[2015.10.26-22.43.15:533][562]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/image1_Mat_Auto3E9CDD39D4540FA07F7B9D49E5C9953EA.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/textures/image1_Mat_Auto3.uasset'
+[2015.10.26-22.43.15:534][562]LogSavePackage: Total save time: 4.978061ms
+[2015.10.26-22.43.15:534][562]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/textures/image1_Mat_Auto3.uasset
+[2015.10.26-22.43.15:534][562]LogFileHelpers: Auto-saving content packages took 0.014
+[2015.10.26-22.44.00:101][791]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.44.00:109][791]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.44.03:176][848]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.10.26-22.44.03:176][848]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.44.03:176][848]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.44.12:069][ 52]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.44.12:080][ 52]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.44.12:623][ 61]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.44.12:635][ 61]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.44.14:370][ 90]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.44.14:382][ 90]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.44.14:725][ 96]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.10.26-22.44.14:726][ 96]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.44.14:726][ 96]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.44.15:878][114]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.44.15:889][114]LogMaterial: 0.000151 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.44.18:127][156]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.26-22.44.18:127][156]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.44.18:127][156]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.44.19:604][190]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.44.19:613][190]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.44.21:196][221]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.44.21:209][221]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.44.21:667][230]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.10.26-22.44.21:667][230]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.44.21:667][230]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.44.23:257][259]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.26-22.44.23:257][259]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.44.23:257][259]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.44.24:272][284]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.44.24:280][284]LogMaterial: 0.000144 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.44.27:504][345]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.26-22.44.27:504][345]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.44.27:504][345]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.45.00:468][ 85]LogMaterialEditor: Applying material image1_Mat
+[2015.10.26-22.45.01:417][ 85]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.45.01:449][ 85]LogMaterial: 0.000179 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.45.01:534][ 85]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.45.01:578][ 85]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.45.01:610][ 85]LogMaterial: 0.013980 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.45.02:641][104]LogMaterialEditor: Saving and Compiling material image1_Mat
+[2015.10.26-22.45.05:799][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tardis/materials/image1_Mat" FILE="../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/image1_Mat.uasset" SILENT=true
+[2015.10.26-22.45.05:847][104]LogSavePackage: Save=23.085262ms
+[2015.10.26-22.45.05:847][104]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/image1_Mat608ACE6A456864E93B916E9208D667A1.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/image1_Mat.uasset'
+[2015.10.26-22.45.05:849][104]LogSavePackage: Total save time: 48.802614ms
+[2015.10.26-22.45.05:849][104]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/image1_Mat.uasset
+[2015.10.26-22.45.05:864][104]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.10.26-22.45.05:864][104]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.45.05:864][104]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.45.26:082][539]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.45.26:091][539]LogMaterial: 0.000285 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.45.29:334][605]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.26-22.45.29:334][605]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.45.29:334][605]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.45.38:841][789]LogMaterialEditor: Applying material image1_Mat
+[2015.10.26-22.45.39:747][789]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.45.39:781][789]LogMaterial: 0.000286 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.45.39:854][789]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.45.39:917][789]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.45.39:942][789]LogMaterial: 0.011949 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.45.46:397][892]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.10.26-22.45.46:397][892]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.45.46:397][892]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.45.49:831][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.45.49:831][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-22.45.49:831][977]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 8:45:49 AM)
+[2015.10.26-22.45.49:831][977]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-22.45.50:017][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.185308s)
+[2015.10.26-22.45.50:019][977]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-22.45.50:019][977]LogPlayLevel: PIE: World Init took: (0.002186s)
+[2015.10.26-22.45.50:020][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.188382s)
+[2015.10.26-22.45.50:137][977]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-22.45.50:152][977]LogInit: FAudioDevice initialized.
+[2015.10.26-22.45.50:196][977]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-22.45.50:403][977]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-15.45.50
+[2015.10.26-22.45.50:403][977]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.45.50:403][977]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.45.50:406][977]LogWorld: Bringing up level for play took: 0.208412
+[2015.10.26-22.45.50:414][977]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.713
+[2015.10.26-22.45.50:414][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.45.59:536][225]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.45.59:656][225]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.45.59:732][225]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003562D00A40
+[2015.10.26-22.46.10:302][435]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.46.10:311][435]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.46.10:313][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.10.26-22.46.12:635][473]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.46.12:647][473]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.46.12:673][473]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.10.26-22.46.15:319][507]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.26-22.46.15:319][507]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.46.15:319][507]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.26-22.46.21:796][630]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.46.21:807][630]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.46.21:837][630]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.10.26-22.46.24:180][665]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.26-22.46.24:180][665]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.46.24:180][665]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.46.30:695][802]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.46.30:703][802]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.46.32:767][840]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.10.26-22.46.32:767][840]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.46.32:767][840]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.46.38:589][950]LogMaterialEditor: Applying material image1_Mat
+[2015.10.26-22.46.39:483][950]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.46.39:518][950]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.46.39:610][950]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.46.39:648][950]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.46.39:678][950]LogMaterial: 0.014781 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.46.44:042][ 32]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.46.44:043][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-22.46.44:043][ 32]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 8:46:44 AM)
+[2015.10.26-22.46.44:043][ 32]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-22.46.44:245][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.202535s)
+[2015.10.26-22.46.44:248][ 32]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-22.46.44:248][ 32]LogPlayLevel: PIE: World Init took: (0.002819s)
+[2015.10.26-22.46.44:249][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.206676s)
+[2015.10.26-22.46.44:382][ 32]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-22.46.44:400][ 32]LogInit: FAudioDevice initialized.
+[2015.10.26-22.46.44:448][ 32]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-22.46.44:670][ 32]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-15.46.44
+[2015.10.26-22.46.44:671][ 32]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.46.44:671][ 32]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.46.44:678][ 32]LogWorld: Bringing up level for play took: 0.227530
+[2015.10.26-22.46.44:687][ 32]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.986
+[2015.10.26-22.46.44:687][ 32]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.46.44:733][ 33]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075681 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_8'
+[2015.10.26-22.46.46:369][ 76]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.10.26-22.46.46:369][ 76]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.46.46:369][ 76]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.46.52:924][268]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.46.53:017][268]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.46.53:181][269]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000353CE3D440
+[2015.10.26-22.47.00:167][424]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.47.00:174][424]LogMaterial: 0.000158 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.47.02:303][458]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.10.26-22.47.02:304][458]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.47.02:304][458]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.47.02:667][466]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.47.02:676][466]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.47.04:598][496]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.10.26-22.47.04:598][496]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.47.04:598][496]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.47.04:923][503]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.47.04:932][503]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.47.07:047][537]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.10.26-22.47.07:047][537]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.47.07:047][537]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.47.09:835][600]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.47.09:843][600]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.47.11:634][627]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.47.11:644][627]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.47.11:916][631]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.10.26-22.47.11:916][631]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.47.11:916][631]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.47.13:703][660]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.26-22.47.13:703][660]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.47.13:703][660]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.26-22.47.15:360][698]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.47.15:369][698]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.47.17:450][734]LogMaterialEditor: Applying material image1_Mat
+[2015.10.26-22.47.18:312][734]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.47.18:343][734]LogMaterial: 0.000183 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.47.18:419][734]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.47.18:457][734]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.47.18:489][734]LogMaterial: 0.016216 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.47.19:252][745]LogMaterialEditor: Saving and Compiling material image1_Mat
+[2015.10.26-22.47.22:298][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tardis/materials/image1_Mat" FILE="../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/image1_Mat.uasset" SILENT=true
+[2015.10.26-22.47.22:340][745]LogSavePackage: Save=22.622154ms
+[2015.10.26-22.47.22:340][745]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/image1_Mat929C8D3F40F30422AAC6D7B86A40CBE7.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/image1_Mat.uasset'
+[2015.10.26-22.47.22:343][745]LogSavePackage: Total save time: 43.296203ms
+[2015.10.26-22.47.22:343][745]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/image1_Mat.uasset
+[2015.10.26-22.47.22:375][745]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.10.26-22.47.22:375][745]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.47.22:375][745]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.47.25:754][819]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.47.25:755][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-22.47.25:755][819]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 8:47:25 AM)
+[2015.10.26-22.47.25:755][819]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-22.47.25:929][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.173818s)
+[2015.10.26-22.47.25:930][819]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-22.47.25:931][819]LogPlayLevel: PIE: World Init took: (0.001802s)
+[2015.10.26-22.47.25:931][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.176408s)
+[2015.10.26-22.47.26:042][819]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-22.47.26:053][819]LogInit: FAudioDevice initialized.
+[2015.10.26-22.47.26:095][819]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-22.47.26:270][819]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-15.47.26
+[2015.10.26-22.47.26:270][819]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.47.26:271][819]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.47.26:277][819]LogWorld: Bringing up level for play took: 0.179525
+[2015.10.26-22.47.26:286][819]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.585
+[2015.10.26-22.47.26:286][819]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.47.26:328][820]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078268 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_9'
+[2015.10.26-22.47.46:210][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.47.46:306][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.47.46:470][405]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003547945300
+[2015.10.26-22.47.54:402][587]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.47.54:410][587]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.47.55:715][612]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.47.55:727][612]LogMaterial: 0.000178 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.47.57:878][651]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
+[2015.10.26-22.47.57:878][651]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.47.57:878][651]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.47.59:430][687]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.47.59:438][687]LogMaterial: 0.000176 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.48.01:357][721]LogMaterialEditor: Applying material image1_Mat
+[2015.10.26-22.48.02:217][721]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.48.02:249][721]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.48.02:350][721]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.48.02:391][721]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.48.02:421][721]LogMaterial: 0.013293 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.48.05:684][777]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.48.05:684][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-22.48.05:684][777]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 8:48:05 AM)
+[2015.10.26-22.48.05:684][777]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-22.48.05:888][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.203017s)
+[2015.10.26-22.48.05:890][777]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-22.48.05:890][777]LogPlayLevel: PIE: World Init took: (0.002428s)
+[2015.10.26-22.48.05:892][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.207217s)
+[2015.10.26-22.48.06:012][777]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-22.48.06:028][777]LogInit: FAudioDevice initialized.
+[2015.10.26-22.48.06:072][777]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-22.48.06:302][777]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-15.48.06
+[2015.10.26-22.48.06:302][777]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.48.06:303][777]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.48.06:307][777]LogWorld: Bringing up level for play took: 0.231226
+[2015.10.26-22.48.06:314][777]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.614
+[2015.10.26-22.48.06:315][777]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.48.06:368][778]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.081122 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_10'
+[2015.10.26-22.48.08:357][834]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.10.26-22.48.08:357][834]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.48.08:357][834]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.48.21:643][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.48.21:756][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.48.21:935][229]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003555C12840
+[2015.10.26-22.48.21:987][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_HullStruts_S8)
+[2015.10.26-22.48.24:677][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8_TrimCatwalk_S8)
+[2015.10.26-22.48.25:270][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Baselights)
+[2015.10.26-22.48.31:252][432]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.48.31:262][432]LogMaterial: 0.000153 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.48.32:689][458]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.48.32:701][458]LogMaterial: 0.000157 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.48.34:419][487]LogMaterialEditor: Saving and Compiling material image1_Mat
+[2015.10.26-22.48.35:499][487]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.48.35:531][487]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.48.35:627][487]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.48.35:668][487]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.48.35:699][487]LogMaterial: 0.014278 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.48.39:021][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tardis/materials/image1_Mat" FILE="../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/image1_Mat.uasset" SILENT=true
+[2015.10.26-22.48.39:066][487]LogSavePackage: Save=25.176716ms
+[2015.10.26-22.48.39:066][487]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/image1_Mat361027384FB3213948F2DA8E1850124D.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/image1_Mat.uasset'
+[2015.10.26-22.48.39:069][487]LogSavePackage: Total save time: 46.781372ms
+[2015.10.26-22.48.39:069][487]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Content/Tardis/materials/image1_Mat.uasset
+[2015.10.26-22.48.39:091][487]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.10.26-22.48.39:091][487]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.48.39:091][487]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.48.50:399][729]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.48.50:410][729]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.48.51:299][744]LogMaterialEditor: Applying material image1_Mat
+[2015.10.26-22.48.52:366][744]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.48.52:403][744]LogMaterial: 0.000131 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.48.52:507][744]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.48.52:547][744]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.48.52:582][744]LogMaterial: 0.015805 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.48.58:345][847]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.10.26-22.48.58:345][847]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.48.58:345][847]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.49.16:369][230]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.49.16:378][230]LogMaterial: 0.000118 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.49.16:405][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.26-22.49.19:546][285]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 41 instructions
+[2015.10.26-22.49.19:546][285]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.49.19:546][285]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.49.30:316][500]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.49.30:324][500]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.49.30:351][500]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.10.26-22.49.32:636][539]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2015.10.26-22.49.32:636][539]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.49.32:636][539]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.10.26-22.49.35:176][591]LogMaterialEditor: Applying material image1_Mat
+[2015.10.26-22.49.36:112][591]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.49.36:141][591]LogMaterial: 0.000143 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.49.36:234][591]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.49.36:277][591]LogMaterial: Missing cached shader map for material image1_Mat, compiling. 
+[2015.10.26-22.49.36:316][591]LogMaterial: 0.013309 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.26-22.49.38:941][639]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.49.38:941][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-22.49.38:942][639]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 8:49:38 AM)
+[2015.10.26-22.49.38:942][639]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-22.49.39:148][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.205874s)
+[2015.10.26-22.49.39:151][639]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-22.49.39:151][639]LogPlayLevel: PIE: World Init took: (0.003459s)
+[2015.10.26-22.49.39:152][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.210365s)
+[2015.10.26-22.49.39:281][639]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-22.49.39:306][639]LogInit: FAudioDevice initialized.
+[2015.10.26-22.49.39:353][639]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-22.49.39:585][639]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-15.49.39
+[2015.10.26-22.49.39:585][639]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.49.39:586][639]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-22.49.39:591][639]LogWorld: Bringing up level for play took: 0.235278
+[2015.10.26-22.49.39:603][639]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.098
+[2015.10.26-22.49.39:604][639]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.49.39:664][640]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.072548 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_11'
+[2015.10.26-22.49.43:465][741]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2015.10.26-22.49.43:465][741]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.10.26-22.49.43:465][741]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.26-22.50.05:310][394]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.50.05:399][394]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-22.50.05:572][395]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000356AF6D800
+[2015.10.26-22.50.12:761][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TARDIS_Control_Room_S8light)
+[2015.10.26-22.54.39:517][540]LogSavePackage: Save=1207.604980ms
+[2015.10.26-22.54.39:517][540]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/FirstPersonExampleMap_Auto456D3BE3B4298005F10D058B9C93D6F2D.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2015.10.26-22.54.39:519][540]LogSavePackage: Total save time: 1259.364147ms
+[2015.10.26-22.54.39:519][540]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap
+[2015.10.26-22.54.39:526][540]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.335
+[2015.10.26-22.54.39:526][540]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.335
+[2015.10.26-22.54.39:588][540]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tardis/materials/image1_Mat] ([1] browsable assets)...
+[2015.10.26-22.54.39:607][540]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Tardis/materials/image1_Mat.image1_Mat]
+[2015.10.26-22.54.39:607][540]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tardis/materials/image1_Mat]
+[2015.10.26-22.54.39:651][540]LogSavePackage: Save=20.752163ms
+[2015.10.26-22.54.39:651][540]LogSavePackage: Moving '../../../../../Unreal Projects/Capaldi_Tardis/Saved/image1_Mat_Auto480BDC134408F5C9F58C153B3A97C4380.tmp' to '../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/materials/image1_Mat_Auto4.uasset'
+[2015.10.26-22.54.39:711][540]LogSavePackage: Total save time: 101.602074ms
+[2015.10.26-22.54.39:711][540]LogSavePackage:Warning: Finished SavePackage ../../../../../Unreal Projects/Capaldi_Tardis/Saved/Autosaves/Game/Tardis/materials/image1_Mat_Auto4.uasset
+[2015.10.26-22.54.39:711][540]LogFileHelpers: Auto-saving content packages took 0.134
+[2015.10.26-23.13.33:999][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-23.13.33:999][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-23.13.33:999][  8]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 9:13:33 AM)
+[2015.10.26-23.13.33:999][  8]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-23.13.34:154][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.155077s)
+[2015.10.26-23.13.34:157][  8]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-23.13.34:158][  8]LogPlayLevel: PIE: World Init took: (0.003523s)
+[2015.10.26-23.13.34:160][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.160896s)
+[2015.10.26-23.13.34:254][  8]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-23.13.34:266][  8]LogInit: FAudioDevice initialized.
+[2015.10.26-23.13.34:307][  8]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-23.13.34:452][  8]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-16.13.34
+[2015.10.26-23.13.34:452][  8]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-23.13.34:453][  8]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-23.13.34:456][  8]LogWorld: Bringing up level for play took: 0.147754
+[2015.10.26-23.13.34:462][  8]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.762
+[2015.10.26-23.13.34:462][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-23.13.41:997][255]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-23.13.42:098][255]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-23.13.42:174][255]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000356584C720
+[2015.10.26-23.13.47:238][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-23.13.47:238][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-23.13.47:238][399]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 9:13:47 AM)
+[2015.10.26-23.13.47:238][399]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-23.13.47:376][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138082s)
+[2015.10.26-23.13.47:380][399]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-23.13.47:381][399]LogPlayLevel: PIE: World Init took: (0.004605s)
+[2015.10.26-23.13.47:384][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.145460s)
+[2015.10.26-23.13.47:485][399]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-23.13.47:496][399]LogInit: FAudioDevice initialized.
+[2015.10.26-23.13.47:536][399]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-23.13.47:699][399]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-16.13.47
+[2015.10.26-23.13.47:700][399]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-23.13.47:700][399]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-23.13.47:702][399]LogWorld: Bringing up level for play took: 0.164327
+[2015.10.26-23.13.47:707][399]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.007
+[2015.10.26-23.13.47:708][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-23.13.51:823][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-23.13.51:913][538]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-23.13.52:074][539]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003514AD71A0
+[2015.10.26-23.13.59:510][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-23.13.59:510][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.26-23.13.59:510][746]PIE: New page: PIE session: FirstPersonExampleMap (Oct 26, 2015, 9:13:59 AM)
+[2015.10.26-23.13.59:510][746]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.10.26-23.13.59:662][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.152124s)
+[2015.10.26-23.13.59:665][746]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.10.26-23.13.59:665][746]LogPlayLevel: PIE: World Init took: (0.002584s)
+[2015.10.26-23.13.59:666][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.155623s)
+[2015.10.26-23.13.59:770][746]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.26-23.13.59:784][746]LogInit: FAudioDevice initialized.
+[2015.10.26-23.13.59:828][746]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.26-23.13.59:998][746]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.10.26-16.13.59
+[2015.10.26-23.13.59:998][746]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-23.13.59:999][746]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.26-23.14.00:003][746]LogWorld: Bringing up level for play took: 0.173254
+[2015.10.26-23.14.00:010][746]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.31
+[2015.10.26-23.14.00:011][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-23.14.26:098][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-23.14.26:194][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.10.26-23.14.26:341][630]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003569CA65C0
+[2015.10.26-23.40.18:181][628]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 I:\Projects\Models\sl\Lodger\TimeShip.fbx)
+[2015.10.26-23.40.18:206][628]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.26-23.40.18:206][628]LogFbx: ItemName: Geometry, ItemCount : 86
+[2015.10.26-23.40.18:206][628]LogFbx: ItemName: Model, ItemCount : 86
+[2015.10.26-23.40.18:206][628]LogFbx: ItemName: Material, ItemCount : 27
+[2015.10.26-23.40.18:206][628]LogFbx: ItemName: Texture, ItemCount : 23
+[2015.10.26-23.40.18:206][628]LogFbx: ItemName: Video, ItemCount : 13
+[2015.10.26-23.40.18:218][628]LogFbx: Loading FBX Scene from I:\Projects\Models\sl\Lodger\TimeShip.fbx
+[2015.10.26-23.40.18:384][628]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.26-23.40.20:788][628]LogFbx: Loading FBX Scene from I:\Projects\Models\sl\Lodger\TimeShip.fbx
+[2015.10.26-23.40.20:950][628]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.26-23.40.20:966][628]LogStaticMesh: Building static mesh TimeShip_prim85...
+[2015.10.26-23.40.20:972][628]LogStaticMesh: Built static mesh [0.006192.2s] /Game/Lodger/models/TimeShip_prim85.TimeShip_prim85
+[2015.10.26-23.40.20:989][628]LogStaticMesh: Building static mesh TimeShip_prim84...
+[2015.10.26-23.40.21:003][628]LogStaticMesh: Built static mesh [0.015269.2s] /Game/Lodger/models/TimeShip_prim84.TimeShip_prim84
+[2015.10.26-23.40.21:019][628]LogStaticMesh: Building static mesh TimeShip_prim83...
+[2015.10.26-23.40.21:026][628]LogStaticMesh: Built static mesh [0.007711.2s] /Game/Lodger/models/TimeShip_prim83.TimeShip_prim83
+[2015.10.26-23.40.21:036][628]LogStaticMesh: Building static mesh TimeShip_prim82...
+[2015.10.26-23.40.21:044][628]LogStaticMesh: Built static mesh [0.008660.2s] /Game/Lodger/models/TimeShip_prim82.TimeShip_prim82
+[2015.10.26-23.40.21:059][628]LogStaticMesh: Building static mesh TimeShip_prim81...
+[2015.10.26-23.40.21:066][628]LogStaticMesh: Built static mesh [0.007593.2s] /Game/Lodger/models/TimeShip_prim81.TimeShip_prim81
+[2015.10.26-23.40.21:079][628]LogStaticMesh: Building static mesh TimeShip_prim80...
+[2015.10.26-23.40.21:088][628]LogStaticMesh: Built static mesh [0.010101.2s] /Game/Lodger/models/TimeShip_prim80.TimeShip_prim80
+[2015.10.26-23.40.21:100][628]LogStaticMesh: Building static mesh TimeShip_prim79...
+[2015.10.26-23.40.21:106][628]LogStaticMesh: Built static mesh [0.007453.2s] /Game/Lodger/models/TimeShip_prim79.TimeShip_prim79
+[2015.10.26-23.40.21:118][628]LogStaticMesh: Building static mesh TimeShip_prim78...
+[2015.10.26-23.40.21:122][628]LogStaticMesh: Built static mesh [0.004691.2s] /Game/Lodger/models/TimeShip_prim78.TimeShip_prim78
+[2015.10.26-23.40.21:133][628]LogStaticMesh: Building static mesh TimeShip_prim77...
+[2015.10.26-23.40.21:138][628]LogStaticMesh: Built static mesh [0.005339.2s] /Game/Lodger/models/TimeShip_prim77.TimeShip_prim77
+[2015.10.26-23.40.21:152][628]LogStaticMesh: Building static mesh TimeShip_prim76...
+[2015.10.26-23.40.21:156][628]LogStaticMesh: Built static mesh [0.005072.2s] /Game/Lodger/models/TimeShip_prim76.TimeShip_prim76
+[2015.10.26-23.40.21:170][628]LogStaticMesh: Building static mesh TimeShip_prim75...
+[2015.10.26-23.40.21:177][628]LogStaticMesh: Built static mesh [0.007523.2s] /Game/Lodger/models/TimeShip_prim75.TimeShip_prim75
+[2015.10.26-23.40.21:195][628]LogStaticMesh: Building static mesh TimeShip_prim74...
+[2015.10.26-23.40.21:200][628]LogStaticMesh: Built static mesh [0.005982.2s] /Game/Lodger/models/TimeShip_prim74.TimeShip_prim74
+[2015.10.26-23.40.21:211][628]LogStaticMesh: Building static mesh TimeShip_prim73...
+[2015.10.26-23.40.21:217][628]LogStaticMesh: Built static mesh [0.006871.2s] /Game/Lodger/models/TimeShip_prim73.TimeShip_prim73
+[2015.10.26-23.40.21:234][628]LogStaticMesh: Building static mesh TimeShip_prim72...
+[2015.10.26-23.40.21:291][628]LogStaticMesh: Built static mesh [0.057440.2s] /Game/Lodger/models/TimeShip_prim72.TimeShip_prim72
+[2015.10.26-23.40.21:312][628]LogStaticMesh: Building static mesh TimeShip_prim71...
+[2015.10.26-23.40.21:372][628]LogStaticMesh: Built static mesh [0.060848.2s] /Game/Lodger/models/TimeShip_prim71.TimeShip_prim71
+[2015.10.26-23.40.21:400][628]LogStaticMesh: Building static mesh TimeShip_prim70...
+[2015.10.26-23.40.21:451][628]LogStaticMesh: Built static mesh [0.051681.2s] /Game/Lodger/models/TimeShip_prim70.TimeShip_prim70
+[2015.10.26-23.40.21:476][628]LogStaticMesh: Building static mesh TimeShip_prim69...
+[2015.10.26-23.40.21:534][628]LogStaticMesh: Built static mesh [0.059974.2s] /Game/Lodger/models/TimeShip_prim69.TimeShip_prim69
+[2015.10.26-23.40.21:552][628]LogStaticMesh: Building static mesh TimeShip_prim68...
+[2015.10.26-23.40.21:564][628]LogStaticMesh: Built static mesh [0.012676.2s] /Game/Lodger/models/TimeShip_prim68.TimeShip_prim68
+[2015.10.26-23.40.21:582][628]LogStaticMesh: Building static mesh TimeShip_prim67...
+[2015.10.26-23.40.21:766][628]LogStaticMesh: Built static mesh [0.185264.2s] /Game/Lodger/models/TimeShip_prim67.TimeShip_prim67
+[2015.10.26-23.40.21:822][628]LogStaticMesh: Building static mesh TimeShip_prim66...
+[2015.10.26-23.40.22:020][628]LogStaticMesh: Built static mesh [0.198600.2s] /Game/Lodger/models/TimeShip_prim66.TimeShip_prim66
+[2015.10.26-23.40.22:067][628]LogStaticMesh: Building static mesh TimeShip_prim65...
+[2015.10.26-23.40.22:259][628]LogStaticMesh: Built static mesh [0.192915.2s] /Game/Lodger/models/TimeShip_prim65.TimeShip_prim65
+[2015.10.26-23.40.22:292][628]LogStaticMesh: Building static mesh TimeShip_prim64...
+[2015.10.26-23.40.22:486][628]LogStaticMesh: Built static mesh [0.195085.2s] /Game/Lodger/models/TimeShip_prim64.TimeShip_prim64
+[2015.10.26-23.40.22:505][628]LogStaticMesh: Building static mesh TimeShip_prim63...
+[2015.10.26-23.40.22:696][628]LogStaticMesh: Built static mesh [0.190730.2s] /Game/Lodger/models/TimeShip_prim63.TimeShip_prim63
+[2015.10.26-23.40.22:716][628]LogStaticMesh: Building static mesh TimeShip_prim62...
+[2015.10.26-23.40.22:912][628]LogStaticMesh: Built static mesh [0.196609.2s] /Game/Lodger/models/TimeShip_prim62.TimeShip_prim62
+[2015.10.26-23.40.22:936][628]LogStaticMesh: Building static mesh TimeShip_prim61...
+[2015.10.26-23.40.23:137][628]LogStaticMesh: Built static mesh [0.202002.2s] /Game/Lodger/models/TimeShip_prim61.TimeShip_prim61
+[2015.10.26-23.40.23:173][628]LogStaticMesh: Building static mesh TimeShip_prim60...
+[2015.10.26-23.40.23:185][628]LogStaticMesh: Built static mesh [0.013274.2s] /Game/Lodger/models/TimeShip_prim60.TimeShip_prim60
+[2015.10.26-23.40.23:203][628]LogStaticMesh: Building static mesh TimeShip_prim59...
+[2015.10.26-23.40.23:393][628]LogStaticMesh: Built static mesh [0.190288.2s] /Game/Lodger/models/TimeShip_prim59.TimeShip_prim59
+[2015.10.26-23.40.23:412][628]LogStaticMesh: Building static mesh TimeShip_prim58...
+[2015.10.26-23.40.23:602][628]LogStaticMesh: Built static mesh [0.191055.2s] /Game/Lodger/models/TimeShip_prim58.TimeShip_prim58
+[2015.10.26-23.40.23:630][628]LogStaticMesh: Building static mesh TimeShip_prim57...
+[2015.10.26-23.40.23:824][628]LogStaticMesh: Built static mesh [0.194921.2s] /Game/Lodger/models/TimeShip_prim57.TimeShip_prim57
+[2015.10.26-23.40.23:844][628]LogStaticMesh: Building static mesh TimeShip_prim56...
+[2015.10.26-23.40.24:046][628]LogStaticMesh: Built static mesh [0.202262.2s] /Game/Lodger/models/TimeShip_prim56.TimeShip_prim56
+[2015.10.26-23.40.24:073][628]LogStaticMesh: Building static mesh TimeShip_prim55...
+[2015.10.26-23.40.24:270][628]LogStaticMesh: Built static mesh [0.197706.2s] /Game/Lodger/models/TimeShip_prim55.TimeShip_prim55
+[2015.10.26-23.40.24:294][628]LogStaticMesh: Building static mesh TimeShip_prim54...
+[2015.10.26-23.40.24:502][628]LogStaticMesh: Built static mesh [0.209700.2s] /Game/Lodger/models/TimeShip_prim54.TimeShip_prim54
+[2015.10.26-23.40.24:523][628]LogStaticMesh: Building static mesh TimeShip_prim53...
+[2015.10.26-23.40.24:714][628]LogStaticMesh: Built static mesh [0.192205.2s] /Game/Lodger/models/TimeShip_prim53.TimeShip_prim53
+[2015.10.26-23.40.24:729][628]LogStaticMesh: Building static mesh TimeShip_prim52...
+[2015.10.26-23.40.24:739][628]LogStaticMesh: Built static mesh [0.010708.2s] /Game/Lodger/models/TimeShip_prim52.TimeShip_prim52
+[2015.10.26-23.40.24:758][628]LogStaticMesh: Building static mesh TimeShip_prim51...
+[2015.10.26-23.40.24:941][628]LogStaticMesh: Built static mesh [0.183757.2s] /Game/Lodger/models/TimeShip_prim51.TimeShip_prim51
+[2015.10.26-23.40.24:979][628]LogStaticMesh: Building static mesh TimeShip_prim50...
+[2015.10.26-23.40.25:180][628]LogStaticMesh: Built static mesh [0.202016.2s] /Game/Lodger/models/TimeShip_prim50.TimeShip_prim50
+[2015.10.26-23.40.25:218][628]LogStaticMesh: Building static mesh TimeShip_prim49...
+[2015.10.26-23.40.25:417][628]LogStaticMesh: Built static mesh [0.199591.2s] /Game/Lodger/models/TimeShip_prim49.TimeShip_prim49
+[2015.10.26-23.40.25:439][628]LogStaticMesh: Building static mesh TimeShip_prim48...
+[2015.10.26-23.40.25:652][628]LogStaticMesh: Built static mesh [0.213441.2s] /Game/Lodger/models/TimeShip_prim48.TimeShip_prim48
+[2015.10.26-23.40.25:680][628]LogStaticMesh: Building static mesh TimeShip_prim47...
+[2015.10.26-23.40.25:896][628]LogStaticMesh: Built static mesh [0.217052.2s] /Game/Lodger/models/TimeShip_prim47.TimeShip_prim47
+[2015.10.26-23.40.25:920][628]LogStaticMesh: Building static mesh TimeShip_prim46...
+[2015.10.26-23.40.26:109][628]LogStaticMesh: Built static mesh [0.190444.2s] /Game/Lodger/models/TimeShip_prim46.TimeShip_prim46
+[2015.10.26-23.40.26:128][628]LogStaticMesh: Building static mesh TimeShip_prim45...
+[2015.10.26-23.40.26:312][628]LogStaticMesh: Built static mesh [0.184691.2s] /Game/Lodger/models/TimeShip_prim45.TimeShip_prim45
+[2015.10.26-23.40.26:329][628]LogStaticMesh: Building static mesh TimeShip_prim44...
+[2015.10.26-23.40.26:339][628]LogStaticMesh: Built static mesh [0.010440.2s] /Game/Lodger/models/TimeShip_prim44.TimeShip_prim44
+[2015.10.26-23.40.26:355][628]LogStaticMesh: Building static mesh TimeShip_prim43...
+[2015.10.26-23.40.26:539][628]LogStaticMesh: Built static mesh [0.184969.2s] /Game/Lodger/models/TimeShip_prim43.TimeShip_prim43
+[2015.10.26-23.40.26:575][628]LogStaticMesh: Building static mesh TimeShip_prim42...
+[2015.10.26-23.40.26:758][628]LogStaticMesh: Built static mesh [0.183501.2s] /Game/Lodger/models/TimeShip_prim42.TimeShip_prim42
+[2015.10.26-23.40.26:781][628]LogStaticMesh: Building static mesh TimeShip_prim41...
+[2015.10.26-23.40.26:990][628]LogStaticMesh: Built static mesh [0.209368.2s] /Game/Lodger/models/TimeShip_prim41.TimeShip_prim41
+[2015.10.26-23.40.27:012][628]LogStaticMesh: Building static mesh TimeShip_prim40...
+[2015.10.26-23.40.27:198][628]LogStaticMesh: Built static mesh [0.186179.2s] /Game/Lodger/models/TimeShip_prim40.TimeShip_prim40
+[2015.10.26-23.40.27:217][628]LogStaticMesh: Building static mesh TimeShip_prim39...
+[2015.10.26-23.40.27:417][628]LogStaticMesh: Built static mesh [0.200088.2s] /Game/Lodger/models/TimeShip_prim39.TimeShip_prim39
+[2015.10.26-23.40.27:438][628]LogStaticMesh: Building static mesh TimeShip_prim38...
+[2015.10.26-23.40.27:630][628]LogStaticMesh: Built static mesh [0.193137.2s] /Game/Lodger/models/TimeShip_prim38.TimeShip_prim38
+[2015.10.26-23.40.27:677][628]LogStaticMesh: Building static mesh TimeShip_prim37...
+[2015.10.26-23.40.27:880][628]LogStaticMesh: Built static mesh [0.203618.2s] /Game/Lodger/models/TimeShip_prim37.TimeShip_prim37
+[2015.10.26-23.40.27:906][628]LogStaticMesh: Building static mesh TimeShip_prim36...
+[2015.10.26-23.40.27:918][628]LogStaticMesh: Built static mesh [0.012772.2s] /Game/Lodger/models/TimeShip_prim36.TimeShip_prim36
+[2015.10.26-23.40.27:935][628]LogStaticMesh: Building static mesh TimeShip_prim35...
+[2015.10.26-23.40.28:137][628]LogStaticMesh: Built static mesh [0.203180.2s] /Game/Lodger/models/TimeShip_prim35.TimeShip_prim35
+[2015.10.26-23.40.28:177][628]LogStaticMesh: Building static mesh TimeShip_prim34...
+[2015.10.26-23.40.28:373][628]LogStaticMesh: Built static mesh [0.197287.2s] /Game/Lodger/models/TimeShip_prim34.TimeShip_prim34
+[2015.10.26-23.40.28:401][628]LogStaticMesh: Building static mesh TimeShip_prim33...
+[2015.10.26-23.40.28:597][628]LogStaticMesh: Built static mesh [0.197129.2s] /Game/Lodger/models/TimeShip_prim33.TimeShip_prim33
+[2015.10.26-23.40.28:616][628]LogStaticMesh: Building static mesh TimeShip_prim32...
+[2015.10.26-23.40.28:808][628]LogStaticMesh: Built static mesh [0.192533.2s] /Game/Lodger/models/TimeShip_prim32.TimeShip_prim32
+[2015.10.26-23.40.28:828][628]LogStaticMesh: Building static mesh TimeShip_prim31...
+[2015.10.26-23.40.29:019][628]LogStaticMesh: Built static mesh [0.191428.2s] /Game/Lodger/models/TimeShip_prim31.TimeShip_prim31
+[2015.10.26-23.40.29:038][628]LogStaticMesh: Building static mesh TimeShip_prim30...
+[2015.10.26-23.40.29:224][628]LogStaticMesh: Built static mesh [0.186805.2s] /Game/Lodger/models/TimeShip_prim30.TimeShip_prim30
+[2015.10.26-23.40.29:247][628]LogStaticMesh: Building static mesh TimeShip_prim29...
+[2015.10.26-23.40.29:446][628]LogStaticMesh: Built static mesh [0.199886.2s] /Game/Lodger/models/TimeShip_prim29.TimeShip_prim29
+[2015.10.26-23.40.29:472][628]LogStaticMesh: Building static mesh TimeShip_prim28...
+[2015.10.26-23.40.29:484][628]LogStaticMesh: Built static mesh [0.012820.2s] /Game/Lodger/models/TimeShip_prim28.TimeShip_prim28
+[2015.10.26-23.40.29:503][628]LogStaticMesh: Building static mesh TimeShip_prim27...
+[2015.10.26-23.40.29:681][628]LogStaticMesh: Built static mesh [0.177941.2s] /Game/Lodger/models/TimeShip_prim27.TimeShip_prim27
+[2015.10.26-23.40.29:705][628]LogStaticMesh: Building static mesh TimeShip_prim26...
+[2015.10.26-23.40.29:899][628]LogStaticMesh: Built static mesh [0.193842.2s] /Game/Lodger/models/TimeShip_prim26.TimeShip_prim26
+[2015.10.26-23.40.29:917][628]LogStaticMesh: Building static mesh TimeShip_prim25...
+[2015.10.26-23.40.30:115][628]LogStaticMesh: Built static mesh [0.198643.2s] /Game/Lodger/models/TimeShip_prim25.TimeShip_prim25
+[2015.10.26-23.40.30:135][628]LogStaticMesh: Building static mesh TimeShip_prim24...
+[2015.10.26-23.40.30:324][628]LogStaticMesh: Built static mesh [0.189930.2s] /Game/Lodger/models/TimeShip_prim24.TimeShip_prim24
+[2015.10.26-23.40.30:345][628]LogStaticMesh: Building static mesh TimeShip_prim23...
+[2015.10.26-23.40.30:566][628]LogStaticMesh: Built static mesh [0.223063.2s] /Game/Lodger/models/TimeShip_prim23.TimeShip_prim23
+[2015.10.26-23.40.30:593][628]LogStaticMesh: Building static mesh TimeShip_prim22...
+[2015.10.26-23.40.30:783][628]LogStaticMesh: Built static mesh [0.191844.2s] /Game/Lodger/models/TimeShip_prim22.TimeShip_prim22
+[2015.10.26-23.40.30:812][628]LogStaticMesh: Building static mesh TimeShip_prim21...
+[2015.10.26-23.40.31:015][628]LogStaticMesh: Built static mesh [0.203512.2s] /Game/Lodger/models/TimeShip_prim21.TimeShip_prim21
+[2015.10.26-23.40.31:031][628]LogStaticMesh: Building static mesh TimeShip_prim20...
+[2015.10.26-23.40.31:043][628]LogStaticMesh: Built static mesh [0.011857.2s] /Game/Lodger/models/TimeShip_prim20.TimeShip_prim20
+[2015.10.26-23.40.31:055][628]LogStaticMesh: Building static mesh TimeShip_prim19...
+[2015.10.26-23.40.31:064][628]LogStaticMesh: Built static mesh [0.009418.2s] /Game/Lodger/models/TimeShip_prim19.TimeShip_prim19
+[2015.10.26-23.40.31:077][628]LogStaticMesh: Building static mesh TimeShip_prim18...
+[2015.10.26-23.40.31:090][628]LogStaticMesh: Built static mesh [0.013430.2s] /Game/Lodger/models/TimeShip_prim18.TimeShip_prim18
+[2015.10.26-23.40.31:103][628]LogStaticMesh: Building static mesh TimeShip_prim17...
+[2015.10.26-23.40.31:114][628]LogStaticMesh: Built static mesh [0.011133.2s] /Game/Lodger/models/TimeShip_prim17.TimeShip_prim17
+[2015.10.26-23.40.31:126][628]LogStaticMesh: Building static mesh TimeShip_prim16...
+[2015.10.26-23.40.31:131][628]LogStaticMesh: Built static mesh [0.005642.2s] /Game/Lodger/models/TimeShip_prim16.TimeShip_prim16
+[2015.10.26-23.40.31:142][628]LogStaticMesh: Building static mesh TimeShip_prim15...
+[2015.10.26-23.40.31:148][628]LogStaticMesh: Built static mesh [0.006670.2s] /Game/Lodger/models/TimeShip_prim15.TimeShip_prim15
+[2015.10.26-23.40.31:161][628]LogStaticMesh: Building static mesh TimeShip_prim14...
+[2015.10.26-23.40.31:165][628]LogStaticMesh: Built static mesh [0.005453.2s] /Game/Lodger/models/TimeShip_prim14.TimeShip_prim14
+[2015.10.26-23.40.31:179][628]LogStaticMesh: Building static mesh TimeShip_prim13...
+[2015.10.26-23.40.31:186][628]LogStaticMesh: Built static mesh [0.007860.2s] /Game/Lodger/models/TimeShip_prim13.TimeShip_prim13
+[2015.10.26-23.40.31:199][628]LogStaticMesh: Building static mesh TimeShip_prim12...
+[2015.10.26-23.40.31:204][628]LogStaticMesh: Built static mesh [0.005407.2s] /Game/Lodger/models/TimeShip_prim12.TimeShip_prim12
+[2015.10.26-23.40.31:215][628]LogStaticMesh: Building static mesh TimeShip_prim11...
+[2015.10.26-23.40.31:221][628]LogStaticMesh: Built static mesh [0.006487.2s] /Game/Lodger/models/TimeShip_prim11.TimeShip_prim11
+[2015.10.26-23.40.31:234][628]LogStaticMesh: Building static mesh TimeShip_prim10...
+[2015.10.26-23.40.31:238][628]LogStaticMesh: Built static mesh [0.005002.2s] /Game/Lodger/models/TimeShip_prim10.TimeShip_prim10
+[2015.10.26-23.40.31:249][628]LogStaticMesh: Building static mesh TimeShip_prim9...
+[2015.10.26-23.40.31:255][628]LogStaticMesh: Built static mesh [0.006297.2s] /Game/Lodger/models/TimeShip_prim9.TimeShip_prim9
+[2015.10.26-23.40.31:268][628]LogStaticMesh: Building static mesh TimeShip_prim8...
+[2015.10.26-23.40.31:275][628]LogStaticMesh: Built static mesh [0.007624.2s] /Game/Lodger/models/TimeShip_prim8.TimeShip_prim8
+[2015.10.26-23.40.31:289][628]LogStaticMesh: Building static mesh TimeShip_prim7...
+[2015.10.26-23.40.31:294][628]LogStaticMesh: Built static mesh [0.006897.2s] /Game/Lodger/models/TimeShip_prim7.TimeShip_prim7
+[2015.10.26-23.40.31:306][628]LogStaticMesh: Building static mesh TimeShip_prim6...
+[2015.10.26-23.40.31:312][628]LogStaticMesh: Built static mesh [0.006905.2s] /Game/Lodger/models/TimeShip_prim6.TimeShip_prim6
+[2015.10.26-23.40.31:323][628]LogStaticMesh: Building static mesh TimeShip_prim5...
+[2015.10.26-23.40.31:328][628]LogStaticMesh: Built static mesh [0.005526.2s] /Game/Lodger/models/TimeShip_prim5.TimeShip_prim5
+[2015.10.26-23.40.31:339][628]LogStaticMesh: Building static mesh TimeShip_prim4...
+[2015.10.26-23.40.31:345][628]LogStaticMesh: Built static mesh [0.006900.2s] /Game/Lodger/models/TimeShip_prim4.TimeShip_prim4
+[2015.10.26-23.40.31:356][628]LogStaticMesh: Building static mesh TimeShip_prim3...
+[2015.10.26-23.40.31:367][628]LogStaticMesh: Built static mesh [0.011953.2s] /Game/Lodger/models/TimeShip_prim3.TimeShip_prim3
+[2015.10.26-23.40.31:382][628]LogStaticMesh: Building static mesh TimeShip_prim2...
+[2015.10.26-23.40.31:388][628]LogStaticMesh: Built static mesh [0.006951.2s] /Game/Lodger/models/TimeShip_prim2.TimeShip_prim2
+[2015.10.26-23.40.31:408][628]LogStaticMesh: Building static mesh TimeShip_prim1...
+[2015.10.26-23.40.31:465][628]LogStaticMesh: Built static mesh [0.057302.2s] /Game/Lodger/models/TimeShip_prim1.TimeShip_prim1
+[2015.10.26-23.40.31:489][628]LogStaticMesh: Building static mesh TimeShip_prim0...
+[2015.10.26-23.40.31:544][628]LogStaticMesh: Built static mesh [0.055569.2s] /Game/Lodger/models/TimeShip_prim0.TimeShip_prim0
+[2015.10.26-23.40.31:835][628]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.10.26-23.40.50:826][971]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 I:\Projects\Models\sl\Lodger\Silence_TimeMachine.fbx)
+[2015.10.26-23.40.50:862][971]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.10.26-23.40.50:862][971]LogFbx: ItemName: NodeAttribute, ItemCount : 7
+[2015.10.26-23.40.50:862][971]LogFbx: ItemName: Geometry, ItemCount : 39
+[2015.10.26-23.40.50:862][971]LogFbx: ItemName: Model, ItemCount : 46
+[2015.10.26-23.40.50:862][971]LogFbx: ItemName: Material, ItemCount : 35
+[2015.10.26-23.40.50:872][971]LogFbx: Loading FBX Scene from I:\Projects\Models\sl\Lodger\Silence_TimeMachine.fbx
+[2015.10.26-23.40.51:010][971]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.26-23.40.53:587][971]LogFbx: Loading FBX Scene from I:\Projects\Models\sl\Lodger\Silence_TimeMachine.fbx
+[2015.10.26-23.40.53:697][971]LogFbx: FBX Scene Loaded Succesfully
+[2015.10.26-23.40.53:702][971]LogFbx:Warning: Triangulating static mesh Cylinder
+[2015.10.26-23.40.53:733][971]LogStaticMesh: Building static mesh Silence_TimeMachine_Cylinder...
+[2015.10.26-23.40.53:735][971]LogStaticMesh: Built static mesh [0.003130.2s] /Game/Lodger/models/Silence_TimeMachine_Cylinder.Silence_TimeMachine_Cylinder
+[2015.10.26-23.40.53:738][971]LogFbx:Warning: Triangulating static mesh PANELS
+[2015.10.26-23.40.56:000][971]LogStaticMesh: Building static mesh Silence_TimeMachine_PANELS...
+[2015.10.26-23.40.56:331][971]LogStaticMesh: Built static mesh [0.332218.2s] /Game/Lodger/models/Silence_TimeMachine_PANELS.Silence_TimeMachine_PANELS
+[2015.10.26-23.40.56:363][971]LogStaticMesh:Warning: Silence_TimeMachine_PANELS has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.26-23.40.56:367][971]LogFbx:Warning: Triangulating static mesh LIGHT_PURPLE
+[2015.10.26-23.40.57:573][971]LogStaticMesh: Building static mesh Silence_TimeMachine_LIGHT_PURPLE...
+[2015.10.26-23.40.57:696][971]LogStaticMesh: Built static mesh [0.124538.2s] /Game/Lodger/models/Silence_TimeMachine_LIGHT_PURPLE.Silence_TimeMachine_LIGHT_PURPLE
+[2015.10.26-23.40.57:712][971]LogFbx:Warning: Triangulating static mesh SIDETUBES
+[2015.10.26-23.40.58:746][971]LogStaticMesh: Building static mesh Silence_TimeMachine_SIDETUBES...
+[2015.10.26-23.40.58:819][971]LogStaticMesh: Built static mesh [0.074440.2s] /Game/Lodger/models/Silence_TimeMachine_SIDETUBES.Silence_TimeMachine_SIDETUBES
+[2015.10.26-23.40.58:834][971]LogFbx:Warning: Triangulating static mesh DISCS
+[2015.10.26-23.40.59:539][971]LogStaticMesh: Building static mesh Silence_TimeMachine_DISCS...
+[2015.10.26-23.40.59:580][971]LogStaticMesh: Built static mesh [0.042155.2s] /Game/Lodger/models/Silence_TimeMachine_DISCS.Silence_TimeMachine_DISCS
+[2015.10.26-23.40.59:591][971]LogStaticMesh:Warning: Silence_TimeMachine_DISCS has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.26-23.40.59:594][971]LogFbx:Warning: Triangulating static mesh PANEL_METAL
+[2015.10.26-23.41.01:420][971]LogStaticMesh: Building static mesh Silence_TimeMachine_PANEL_METAL...
+[2015.10.26-23.41.01:610][971]LogStaticMesh: Built static mesh [0.190913.2s] /Game/Lodger/models/Silence_TimeMachine_PANEL_METAL.Silence_TimeMachine_PANEL_METAL
+[2015.10.26-23.41.01:630][971]LogStaticMesh:Warning: Silence_TimeMachine_PANEL_METAL has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.26-23.41.01:632][971]LogFbx:Warning: Triangulating static mesh PANEL_GLOW
+[2015.10.26-23.41.01:661][971]LogStaticMesh: Building static mesh Silence_TimeMachine_PANEL_GLOW...
+[2015.10.26-23.41.01:662][971]LogStaticMesh: Built static mesh [0.002380.2s] /Game/Lodger/models/Silence_TimeMachine_PANEL_GLOW.Silence_TimeMachine_PANEL_GLOW
+[2015.10.26-23.41.01:664][971]LogFbx:Warning: Triangulating static mesh BODY_UPPER
+[2015.10.26-23.41.02:015][971]LogStaticMesh: Building static mesh Silence_TimeMachine_BODY_UPPER...
+[2015.10.26-23.41.02:042][971]LogStaticMesh: Built static mesh [0.027529.2s] /Game/Lodger/models/Silence_TimeMachine_BODY_UPPER.Silence_TimeMachine_BODY_UPPER
+[2015.10.26-23.41.02:047][971]LogStaticMesh:Warning: Silence_TimeMachine_BODY_UPPER has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.26-23.41.02:061][971]LogFbx:Warning: Triangulating static mesh SUPPORT_POLE
+[2015.10.26-23.41.02:119][971]LogStaticMesh: Building static mesh Silence_TimeMachine_SUPPORT_POLE...
+[2015.10.26-23.41.02:122][971]LogStaticMesh: Built static mesh [0.003963.2s] /Game/Lodger/models/Silence_TimeMachine_SUPPORT_POLE.Silence_TimeMachine_SUPPORT_POLE
+[2015.10.26-23.41.02:125][971]LogFbx:Warning: Triangulating static mesh LEG
+[2015.10.26-23.41.05:432][971]LogStaticMesh: Building static mesh Silence_TimeMachine_LEG...
+[2015.10.26-23.41.05:732][971]LogStaticMesh: Built static mesh [0.300847.2s] /Game/Lodger/models/Silence_TimeMachine_LEG.Silence_TimeMachine_LEG
+[2015.10.26-23.41.05:778][971]LogFbx:Warning: Triangulating static mesh LEG_HOSE
+[2015.10.26-23.41.08:391][971]LogStaticMesh: Building static mesh Silence_TimeMachine_LEG_HOSE...
+[2015.10.26-23.41.08:681][971]LogStaticMesh: Built static mesh [0.290894.2s] /Game/Lodger/models/Silence_TimeMachine_LEG_HOSE.Silence_TimeMachine_LEG_HOSE
+[2015.10.26-23.41.08:715][971]LogFbx:Warning: Triangulating static mesh LIGHT_TUBE
+[2015.10.26-23.41.08:862][971]LogStaticMesh: Building static mesh Silence_TimeMachine_LIGHT_TUBE...
+[2015.10.26-23.41.08:897][971]LogStaticMesh: Built static mesh [0.034570.2s] /Game/Lodger/models/Silence_TimeMachine_LIGHT_TUBE.Silence_TimeMachine_LIGHT_TUBE
+[2015.10.26-23.41.08:901][971]LogFbx:Warning: Triangulating static mesh PANEL_LEFTLIGHT
+[2015.10.26-23.41.09:191][971]LogStaticMesh: Building static mesh Silence_TimeMachine_PANEL_LEFTLIGHT...
+[2015.10.26-23.41.09:210][971]LogStaticMesh: Built static mesh [0.019999.2s] /Game/Lodger/models/Silence_TimeMachine_PANEL_LEFTLIGHT.Silence_TimeMachine_PANEL_LEFTLIGHT
+[2015.10.26-23.41.09:215][971]LogFbx:Warning: Triangulating static mesh HEAD_SPOTCASE
+[2015.10.26-23.41.10:584][971]LogStaticMesh: Building static mesh Silence_TimeMachine_HEAD_SPOTCASE...
+[2015.10.26-23.41.10:731][971]LogStaticMesh: Built static mesh [0.147874.2s] /Game/Lodger/models/Silence_TimeMachine_HEAD_SPOTCASE.Silence_TimeMachine_HEAD_SPOTCASE
+[2015.10.26-23.41.10:764][971]LogFbx:Warning: Triangulating static mesh BASE
+[2015.10.26-23.41.12:247][971]LogStaticMesh: Building static mesh Silence_TimeMachine_BASE...
+[2015.10.26-23.41.12:375][971]LogStaticMesh: Built static mesh [0.129699.2s] /Game/Lodger/models/Silence_TimeMachine_BASE.Silence_TimeMachine_BASE
+[2015.10.26-23.41.12:395][971]LogFbx:Warning: Triangulating static mesh LIGHT_BLUE2
+[2015.10.26-23.41.12:810][971]LogStaticMesh: Building static mesh Silence_TimeMachine_LIGHT_BLUE2...
+[2015.10.26-23.41.12:840][971]LogStaticMesh: Built static mesh [0.030088.2s] /Game/Lodger/models/Silence_TimeMachine_LIGHT_BLUE2.Silence_TimeMachine_LIGHT_BLUE2
+[2015.10.26-23.41.12:855][971]LogFbx:Warning: Triangulating static mesh PANEL_HOSE
+[2015.10.26-23.41.16:140][971]LogStaticMesh: Building static mesh Silence_TimeMachine_PANEL_HOSE...
+[2015.10.26-23.41.16:332][971]LogStaticMesh: Built static mesh [0.192894.2s] /Game/Lodger/models/Silence_TimeMachine_PANEL_HOSE.Silence_TimeMachine_PANEL_HOSE
+[2015.10.26-23.41.16:364][971]LogStaticMesh:Warning: Silence_TimeMachine_PANEL_HOSE has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.26-23.41.16:368][971]LogFbx:Warning: Triangulating static mesh PANEL_RIGHTLIGHT
+[2015.10.26-23.41.16:652][971]LogStaticMesh: Building static mesh Silence_TimeMachine_PANEL_RIGHTLIGHT...
+[2015.10.26-23.41.16:674][971]LogStaticMesh: Built static mesh [0.023105.2s] /Game/Lodger/models/Silence_TimeMachine_PANEL_RIGHTLIGHT.Silence_TimeMachine_PANEL_RIGHTLIGHT
+[2015.10.26-23.41.16:684][971]LogFbx:Warning: Triangulating static mesh HOSE_SOCKET
+[2015.10.26-23.41.17:544][971]LogStaticMesh: Building static mesh Silence_TimeMachine_HOSE_SOCKET...
+[2015.10.26-23.41.17:627][971]LogStaticMesh: Built static mesh [0.083710.2s] /Game/Lodger/models/Silence_TimeMachine_HOSE_SOCKET.Silence_TimeMachine_HOSE_SOCKET
+[2015.10.26-23.41.17:640][971]LogFbx:Warning: Triangulating static mesh PISTONS
+[2015.10.26-23.41.18:936][971]LogStaticMesh: Building static mesh Silence_TimeMachine_PISTONS...
+[2015.10.26-23.41.19:052][971]LogStaticMesh: Built static mesh [0.117218.2s] /Game/Lodger/models/Silence_TimeMachine_PISTONS.Silence_TimeMachine_PISTONS
+[2015.10.26-23.41.19:072][971]LogFbx:Warning: Triangulating static mesh LEG_DETAIL
+[2015.10.26-23.41.23:971][971]LogStaticMesh: Building static mesh Silence_TimeMachine_LEG_DETAIL...
+[2015.10.26-23.41.24:712][971]LogStaticMesh: Built static mesh [0.742238.2s] /Game/Lodger/models/Silence_TimeMachine_LEG_DETAIL.Silence_TimeMachine_LEG_DETAIL
+[2015.10.26-23.41.24:765][971]LogStaticMesh:Warning: Silence_TimeMachine_LEG_DETAIL has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.26-23.41.24:774][971]LogFbx:Warning: Triangulating static mesh PANEL_CASE
+[2015.10.26-23.41.24:926][971]LogStaticMesh: Building static mesh Silence_TimeMachine_PANEL_CASE...
+[2015.10.26-23.41.24:949][971]LogStaticMesh: Built static mesh [0.022735.2s] /Game/Lodger/models/Silence_TimeMachine_PANEL_CASE.Silence_TimeMachine_PANEL_CASE
+[2015.10.26-23.41.24:977][971]LogFbx:Warning: Triangulating static mesh LIGHT_BLUE
+[2015.10.26-23.41.26:221][971]LogStaticMesh: Building static mesh Silence_TimeMachine_LIGHT_BLUE...
+[2015.10.26-23.41.26:345][971]LogStaticMesh: Built static mesh [0.124251.2s] /Game/Lodger/models/Silence_TimeMachine_LIGHT_BLUE.Silence_TimeMachine_LIGHT_BLUE
+[2015.10.26-23.41.26:362][971]LogFbx:Warning: Triangulating static mesh PANEL_STRUT
+[2015.10.26-23.41.26:425][971]LogStaticMesh: Building static mesh Silence_TimeMachine_PANEL_STRUT...
+[2015.10.26-23.41.26:428][971]LogStaticMesh: Built static mesh [0.003679.2s] /Game/Lodger/models/Silence_TimeMachine_PANEL_STRUT.Silence_TimeMachine_PANEL_STRUT
+[2015.10.26-23.41.26:429][971]LogStaticMesh:Warning: Silence_TimeMachine_PANEL_STRUT has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.26-23.41.26:431][971]LogFbx:Warning: Triangulating static mesh LEG_LIGHT
+[2015.10.26-23.41.31:829][971]LogStaticMesh: Building static mesh Silence_TimeMachine_LEG_LIGHT...
+[2015.10.26-23.41.32:235][971]LogStaticMesh: Built static mesh [0.407201.2s] /Game/Lodger/models/Silence_TimeMachine_LEG_LIGHT.Silence_TimeMachine_LEG_LIGHT
+[2015.10.26-23.41.32:294][971]LogStaticMesh:Warning: Silence_TimeMachine_LEG_LIGHT has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.26-23.41.32:301][971]LogFbx:Warning: Triangulating static mesh CTRDOME_OUTER
+[2015.10.26-23.41.32:714][971]LogStaticMesh: Building static mesh Silence_TimeMachine_CTRDOME_OUTER...
+[2015.10.26-23.41.32:736][971]LogStaticMesh: Built static mesh [0.023427.2s] /Game/Lodger/models/Silence_TimeMachine_CTRDOME_OUTER.Silence_TimeMachine_CTRDOME_OUTER
+[2015.10.26-23.41.32:742][971]LogStaticMesh:Warning: Silence_TimeMachine_CTRDOME_OUTER has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.26-23.41.32:761][971]LogFbx:Warning: Triangulating static mesh HEAD_PISTON
+[2015.10.26-23.41.33:483][971]LogStaticMesh: Building static mesh Silence_TimeMachine_HEAD_PISTON...
+[2015.10.26-23.41.33:535][971]LogStaticMesh: Built static mesh [0.052185.2s] /Game/Lodger/models/Silence_TimeMachine_HEAD_PISTON.Silence_TimeMachine_HEAD_PISTON
+[2015.10.26-23.41.33:561][971]LogFbx:Warning: Triangulating static mesh LIGHT_PURPLE2
+[2015.10.26-23.41.33:980][971]LogStaticMesh: Building static mesh Silence_TimeMachine_LIGHT_PURPLE2...
+[2015.10.26-23.41.34:016][971]LogStaticMesh: Built static mesh [0.038054.2s] /Game/Lodger/models/Silence_TimeMachine_LIGHT_PURPLE2.Silence_TimeMachine_LIGHT_PURPLE2
+[2015.10.26-23.41.34:025][971]LogFbx:Warning: Triangulating static mesh CTRDOME_GLOWDK
+[2015.10.26-23.41.34:230][971]LogStaticMesh: Building static mesh Silence_TimeMachine_CTRDOME_GLOWDK...
+[2015.10.26-23.41.34:241][971]LogStaticMesh: Built static mesh [0.012043.2s] /Game/Lodger/models/Silence_TimeMachine_CTRDOME_GLOWDK.Silence_TimeMachine_CTRDOME_GLOWDK
+[2015.10.26-23.41.34:261][971]LogFbx:Warning: Triangulating static mesh HEAD_GLOW
+[2015.10.26-23.41.34:589][971]LogStaticMesh: Building static mesh Silence_TimeMachine_HEAD_GLOW...
+[2015.10.26-23.41.34:610][971]LogStaticMesh: Built static mesh [0.022270.2s] /Game/Lodger/models/Silence_TimeMachine_HEAD_GLOW.Silence_TimeMachine_HEAD_GLOW
+[2015.10.26-23.41.34:615][971]LogFbx:Warning: Triangulating static mesh LIGHT_WHITE
+[2015.10.26-23.41.35:441][971]LogStaticMesh: Building static mesh Silence_TimeMachine_LIGHT_WHITE...
+[2015.10.26-23.41.35:526][971]LogStaticMesh: Built static mesh [0.085871.2s] /Game/Lodger/models/Silence_TimeMachine_LIGHT_WHITE.Silence_TimeMachine_LIGHT_WHITE
+[2015.10.26-23.41.35:536][971]LogFbx:Warning: Triangulating static mesh TUBE_CAP
+[2015.10.26-23.41.36:607][971]LogStaticMesh: Building static mesh Silence_TimeMachine_TUBE_CAP...
+[2015.10.26-23.41.36:706][971]LogStaticMesh: Built static mesh [0.099541.2s] /Game/Lodger/models/Silence_TimeMachine_TUBE_CAP.Silence_TimeMachine_TUBE_CAP
+[2015.10.26-23.41.36:722][971]LogFbx:Warning: Triangulating static mesh CTRDOME_GLOWLT
+[2015.10.26-23.41.36:931][971]LogStaticMesh: Building static mesh Silence_TimeMachine_CTRDOME_GLOWLT...
+[2015.10.26-23.41.36:945][971]LogStaticMesh: Built static mesh [0.014442.2s] /Game/Lodger/models/Silence_TimeMachine_CTRDOME_GLOWLT.Silence_TimeMachine_CTRDOME_GLOWLT
+[2015.10.26-23.41.36:961][971]LogFbx:Warning: Triangulating static mesh BASE_LT
+[2015.10.26-23.41.37:320][971]LogStaticMesh: Building static mesh Silence_TimeMachine_BASE_LT...
+[2015.10.26-23.41.37:335][971]LogStaticMesh: Built static mesh [0.016319.2s] /Game/Lodger/models/Silence_TimeMachine_BASE_LT.Silence_TimeMachine_BASE_LT
+[2015.10.26-23.41.37:361][971]LogFbx:Warning: Triangulating static mesh LEG_STRUT
+[2015.10.26-23.41.37:516][971]LogStaticMesh: Building static mesh Silence_TimeMachine_LEG_STRUT...
+[2015.10.26-23.41.37:567][971]LogStaticMesh: Built static mesh [0.051813.2s] /Game/Lodger/models/Silence_TimeMachine_LEG_STRUT.Silence_TimeMachine_LEG_STRUT
+[2015.10.26-23.41.37:573][971]LogFbx:Warning: Triangulating static mesh BODY_LOWER
+[2015.10.26-23.41.37:996][971]LogStaticMesh: Building static mesh Silence_TimeMachine_BODY_LOWER...
+[2015.10.26-23.41.38:022][971]LogStaticMesh: Built static mesh [0.027254.2s] /Game/Lodger/models/Silence_TimeMachine_BODY_LOWER.Silence_TimeMachine_BODY_LOWER
+[2015.10.26-23.41.38:027][971]LogStaticMesh:Warning: Silence_TimeMachine_BODY_LOWER has degenerate tangent bases which will result in incorrect shading. 
+[2015.10.26-23.41.38:028][971]LogFbx:Warning: Triangulating static mesh HEAD
+[2015.10.26-23.41.39:237][971]LogStaticMesh: Building static mesh Silence_TimeMachine_HEAD...
+[2015.10.26-23.41.39:332][971]LogStaticMesh: Built static mesh [0.096154.2s] /Game/Lodger/models/Silence_TimeMachine_HEAD.Silence_TimeMachine_HEAD
+[2015.10.26-23.41.39:362][971]LogFbx:Warning: Triangulating static mesh BASE_CTR_LIGHT
+[2015.10.26-23.41.39:398][971]LogStaticMesh: Building static mesh Silence_TimeMachine_BASE_CTR_LIGHT...
+[2015.10.26-23.41.39:401][971]LogStaticMesh: Built static mesh [0.004212.2s] /Game/Lodger/models/Silence_TimeMachine_BASE_CTR_LIGHT.Silence_TimeMachine_BASE_CTR_LIGHT
+[2015.10.26-23.41.39:525][971]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.10.26-23.41.39:525][971]FBXImport:Warning: Warning Silence_TimeMachine_PANELS has degenerate tangent bases which will result in incorrect shading.  
+[2015.10.26-23.41.39:525][971]FBXImport:Warning: Warning Silence_TimeMachine_DISCS has degenerate tangent bases which will result in incorrect shading.  
+[2015.10.26-23.41.39:525][971]FBXImport:Warning: Warning Silence_TimeMachine_PANEL_METAL has degenerate tangent bases which will result in incorrect shading.  
+[2015.10.26-23.41.39:526][971]FBXImport:Warning: Warning Silence_TimeMachine_BODY_UPPER has degenerate tangent bases which will result in incorrect shading.  
+[2015.10.26-23.41.39:526][971]FBXImport:Warning: Warning Silence_TimeMachine_PANEL_HOSE has degenerate tangent bases which will result in incorrect shading.  
+[2015.10.26-23.41.39:526][971]FBXImport:Warning: Warning Silence_TimeMachine_LEG_DETAIL has degenerate tangent bases which will result in incorrect shading.  
+[2015.10.26-23.41.39:526][971]FBXImport:Warning: Warning Silence_TimeMachine_PANEL_STRUT has degenerate tangent bases which will result in incorrect shading.  
+[2015.10.26-23.41.39:526][971]FBXImport:Warning: Warning Silence_TimeMachine_LEG_LIGHT has degenerate tangent bases which will result in incorrect shading.  
+[2015.10.26-23.41.39:526][971]FBXImport:Warning: Warning Silence_TimeMachine_CTRDOME_OUTER has degenerate tangent bases which will result in incorrect shading.  
+[2015.10.26-23.41.39:526][971]FBXImport:Error: Error No triangles were found on mesh  'BASE_CTR' 
+[2015.10.26-23.41.39:526][971]FBXImport:Warning: Warning Silence_TimeMachine_BODY_LOWER has degenerate tangent bases which will result in incorrect shading.  
+[2015.10.26-23.41.49:096][ 93]LogActorFactory: Actor Factory created Silence_TimeMachine_BASE
+[2015.10.26-23.41.49:100][ 93]LogActorFactory: Actor Factory created Silence_TimeMachine_BASE_CTR
+[2015.10.26-23.41.49:122][ 93]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.10.26-23.41.54:891][ 93]LogCrashTracker: 
+
+
+[2015.10.26-23.41.55:104][ 93]LogCrashTracker: 
+
+
+[2015.10.26-23.41.55:105][ 93]LogWindows: === Critical error: ===
+Assertion failed: Reference != 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Runtime\Core\Public\Templates\ScopedPointer.h] [Line: 73] 
+
+
+
+
+
+[2015.10.26-23.41.55:266][ 93]LogExit: Executing StaticShutdownAfterError
+[2015.10.26-23.41.55:817][ 93]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.26-23.41.55:818][ 93]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.26-23.41.55:818][ 93]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.26-23.41.55:818][ 93]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.26-23.41.55:819][ 93]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.26-23.41.55:819][ 93]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.26-23.41.55:819][ 93]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.26-23.41.55:820][ 93]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.26-23.41.55:820][ 93]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.26-23.41.55:820][ 93]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.10.26-23.41.55:879][ 93]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.10.26-23.41.55:879][ 93]Log file closed, 10/26/15 16:41:55

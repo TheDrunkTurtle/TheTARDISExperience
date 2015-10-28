@@ -1,0 +1,46 @@
+Begin Object Class=AnimSequence Name="Rotor"
+   Begin Object Class=SceneThumbnailInfo Name="SceneThumbnailInfo_472"
+   End Object
+   Begin Object Class=AnimCompress_BitwiseCompressOnly Name="AnimCompress_BitwiseCompressOnly_1"
+   End Object
+   Begin Object Class=AssetImportData Name="AssetImportData"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_472"
+   End Object
+   Begin Object Name="AnimCompress_BitwiseCompressOnly_1"
+   End Object
+   Begin Object Name="AssetImportData"
+   End Object
+   NumFrames=93
+   TrackToSkeletonMapTable(1)=(BoneTreeIndex=1)
+   TrackToSkeletonMapTable(2)=(BoneTreeIndex=2)
+   TrackToSkeletonMapTable(3)=(BoneTreeIndex=3)
+   AnimationTrackNames(0)="Armature"
+   AnimationTrackNames(1)="prim0_002"
+   AnimationTrackNames(2)="Bone"
+   AnimationTrackNames(3)="Bone_end"
+   CompressionScheme=AnimCompress_BitwiseCompressOnly'AnimCompress_BitwiseCompressOnly_1'
+   RotationCompressionFormat=ACF_Float96NoW
+   CompressedTrackOffsets(0)=0
+   CompressedTrackOffsets(1)=1
+   CompressedTrackOffsets(2)=12
+   CompressedTrackOffsets(3)=1
+   CompressedTrackOffsets(4)=36
+   CompressedTrackOffsets(5)=1
+   CompressedTrackOffsets(6)=48
+   CompressedTrackOffsets(7)=1
+   CompressedTrackOffsets(8)=72
+   CompressedTrackOffsets(9)=1
+   CompressedTrackOffsets(10)=84
+   CompressedTrackOffsets(11)=1
+   CompressedTrackOffsets(12)=108
+   CompressedTrackOffsets(13)=1
+   CompressedTrackOffsets(14)=120
+   CompressedTrackOffsets(15)=1
+   CompressedScaleOffsets=(OffsetData=(24,1,60,1,96,1,132,1))
+   AssetImportData=AssetImportData'AssetImportData'
+   SequenceLength=3.066667
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   Skeleton=Skeleton'/Game/archaic/models/Secondary_Archaic_Console/Secondary_Archaic_Console_prim0_002_Skeleton.Secondary_Archaic_Console_prim0_002_Skeleton'
+   ThumbnailInfo=SceneThumbnailInfo'SceneThumbnailInfo_472'
+End Object
