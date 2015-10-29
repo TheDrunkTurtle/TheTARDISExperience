@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+	<asset>
+		<contributor>
+			<author>chris Primsmith</author>
+			<authoring_tool>Firestorm-Release 4.6.7.42398</authoring_tool>
+		</contributor>
+		<created>2015-10-29T21:47:55</created>
+		<modified>2015-10-29T21:47:55</modified>
+		<unit/>
+		<up_axis>Z_UP</up_axis>
+	</asset>
+	<library_images/>
+	<library_geometries/>
+	<library_effects/>
+	<library_materials/>
+	<library_visual_scenes>
+		<visual_scene id="Scene" name="Scene"/>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#Scene"/>
+	</scene>
+</COLLADA>
